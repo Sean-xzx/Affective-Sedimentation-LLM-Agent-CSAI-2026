@@ -22,7 +22,7 @@ This file records measured checks and their limits, not a support promise.
 - Selected 91-file publication snapshot cloned into an independent directory: demo, scientific verification and documentation checks passed; tokenizer resources were independently prepared there. Its first full suite found one portability defect: the paper-QA tool crashed on the deliberately excluded local compile log. The non-scientific QA tool now reports that missing prerequisite as a failed paper gate, with one additional regression test. Final clean-copy result: **277 passed in 154.09 seconds** (274 baseline tests plus one QA-prerequisite test and two publication tests).
 - Paper compiled in a separate disposable directory: all four documented TeX/BibTeX steps exited 0 and produced a six-page PDF. No shipped source or PDF was overwritten. The local TeX compiler is MiKTeX; the build explicitly disabled automatic package installation.
 - Git credential authentication and the connected GitHub plugin both identify the intended owner, Sean-xzx. A pattern scan inspected 411 historical blobs and found no recognized credential patterns. This does not replace review of the selected publication contents.
-- Repository creation, license selection, public-data approval, push, remote clone and remote CI are pending. No upload is claimed.
+- The author selected repository name `affective-sedimentation-llm-agent`, public visibility, MIT for code, and public distribution of the experiment ledger and authored paper/figures on 2026-10-08. Repository creation, push, remote clone and remote CI are pending; no upload is claimed yet.
 
 ## Explicitly outside the validated scope
 

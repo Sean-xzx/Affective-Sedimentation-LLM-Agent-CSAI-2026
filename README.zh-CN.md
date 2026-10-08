@@ -1,4 +1,4 @@
-# CSAI3：情感沉积
+# LLM 智能体的情感沉积
 
 [English](README.md) · [复现细节](docs/REPRODUCIBILITY.md) · [架构说明](docs/ARCHITECTURE.md)
 
@@ -36,8 +36,8 @@
 克隆仓库并进入根目录：
 
 ```sh
-git clone https://github.com/Sean-xzx/CSAI3.git
-cd CSAI3
+git clone https://github.com/Sean-xzx/affective-sedimentation-llm-agent.git
+cd affective-sedimentation-llm-agent
 python -m venv .venv
 ```
 
@@ -115,7 +115,7 @@ docs/                    架构、来源、资源与验证说明
 
 部分原有分析和制图命令会写入 `reports/`或 `paper/figures/`，请在可丢弃的克隆副本中试验。上述安全入口不会改写冻结科学结果。Git 属性保留科学文件跨平台的字节，因为换行变化也可能使记录的哈希失效。
 
-欢迎通过 [Issues](https://github.com/Sean-xzx/CSAI3/issues) 和 Pull Request 提交复现问题或改进。请附操作系统、Python 版本、命令及脱敏后的错误输出；不要包含 API 密钥、私人 `.env`或个人日志。保留科学常数、核心代码和已记录数据；新的科学设计应成为明确分离的实验，不应悄悄改变本版本。不承诺长期维护或托管服务可用性。
+欢迎通过 [Issues](https://github.com/Sean-xzx/affective-sedimentation-llm-agent/issues) 和 Pull Request 提交复现问题或改进。请附操作系统、Python 版本、命令及脱敏后的错误输出；不要包含 API 密钥、私人 `.env`或个人日志。保留科学常数、核心代码和已记录数据；新的科学设计应成为明确分离的实验，不应悄悄改变本版本。不承诺长期维护或托管服务可用性。
 
 ## 已知限制与常见问题
 
@@ -128,7 +128,7 @@ docs/                    架构、来源、资源与验证说明
 
 ## 使用条件、来源与引用
 
-许可证正在等待作者确认。在添加 `LICENSE` 前，未授予开源许可证。数据、论文文字和图表保留作者权利，重新分发前请查阅[资源来源说明](docs/RESOURCE_PROVENANCE.md)。
+项目代码采用 [MIT 许可证](LICENSE)。作者已允许公开实验日志及自有论文和图表；这些研究资源保留作者权利，不随代码自动更换许可证。具体范围和第三方条件见[资源来源说明](docs/RESOURCE_PROVENANCE.md)。
 
 工程化评价映射将非中性 OCC-to-PAD 数值归因于 Gebhard 和 Kipp（2006）Table 2；方法与相关工作出处见 [refs.bib](paper/refs.bib)和[证据表](paper/LITERATURE_EVIDENCE.md)。仓库不分发第三方论文 PDF 或模型权重；附带参考文献样式在文件头声明为 public domain。
 

@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def check() -> int:
     english = (ROOT / "README.md").read_text(encoding="utf-8")
     chinese = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
-    command = re.compile(r"^(?:python |git clone |cd CSAI3|source |\.\\\.venv).*", re.MULTILINE)
+    command = re.compile(r"^(?:python |git clone |cd |source |\.\\\.venv).*", re.MULTILINE)
     if command.findall(english) != command.findall(chinese):
         raise ValueError("The bilingual executable examples differ")
     for value in ("3.11.9", "836", "576", "180", "0.26775524691778746",

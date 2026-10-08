@@ -4,11 +4,11 @@ The publication separates original experimental artifacts from third-party softw
 
 | Resource | Origin and role | Use conditions / status |
 |---|---|---|
-| `sprint/`, original analysis/tests, publication utilities | Local CSAI3 project and publication work | Project code license awaits author selection. |
+| `sprint/`, original analysis/tests, publication utilities | Local CSAI3 project and publication work | [MIT License](../LICENSE), selected by the author on 2026-10-08; this covers project code and its usage documentation. |
 | `materials/` | Author-defined fictional probes and engineered action mapping | Research materials retain author rights; source attribution is preserved. |
-| `data/raw/sprint_raw.jsonl` | Recorded synthetic scenarios and hosted A/B completions | Publication requires the author's confirmation; no credentials are included. Provider terms remain applicable. |
+| `data/raw/sprint_raw.jsonl` | Recorded synthetic scenarios and hosted A/B completions | The author authorized public distribution on 2026-10-08; research-data rights and provider terms remain applicable. No credentials are included. |
 | `reports/`, `data/derived/` | Local analysis of the recorded ledger | Research data/results retain author rights. |
-| `paper/main.tex`, `main.pdf`, `refs.bib`, figures | Author paper and locally supplied research artwork | Publication requires the author's rights confirmation; paper/figures retain author rights. No conference acceptance is asserted. |
+| `paper/main.tex`, `main.pdf`, `refs.bib`, figures | Author paper and locally supplied research artwork | The author confirmed ownership and authorized public distribution on 2026-10-08; paper/figures retain author rights. No conference acceptance is asserted. |
 | `paper/ACM-Reference-Format-unsrt.bst` | Local unsorted variant of the ACM bibliography style | Header explicitly declares public-domain status and names its original authors; header retained. |
 | `Qwen/Qwen3-0.6B` tokenizer | [Qwen repository](https://huggingface.co/Qwen/Qwen3-0.6B), revision pinned in `resources.json` | Upstream metadata declares Apache-2.0. Downloaded on demand; not redistributed in Git, no weights. Consult the upstream license and model card. |
 | Python dependencies | Packages listed in the publication lock | Installed from package registries; each retains its own license. |

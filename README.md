@@ -1,4 +1,4 @@
-# CSAI3: Affective Sedimentation
+# Affective Sedimentation for LLM Agents
 
 [简体中文](README.zh-CN.md) · [Reproduction details](docs/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md)
 
@@ -36,8 +36,8 @@ Both recorded primary gate suites pass. None of the E axis-wise tests passes Hol
 Clone this repository and enter its root:
 
 ```sh
-git clone https://github.com/Sean-xzx/CSAI3.git
-cd CSAI3
+git clone https://github.com/Sean-xzx/affective-sedimentation-llm-agent.git
+cd affective-sedimentation-llm-agent
 python -m venv .venv
 ```
 
@@ -115,7 +115,7 @@ The action map feeds deterministic histories; `dynamics.py` computes slow state;
 
 Some legacy analysis/export commands write into `reports/` or `paper/figures/`. Use a disposable clone when experimenting with them. The safe commands above do not rewrite frozen scientific results. Git attributes preserve scientific bytes across platforms, since even a line-ending change can invalidate a recorded hash.
 
-Contributions and reproducibility reports are welcome through [Issues](https://github.com/Sean-xzx/CSAI3/issues) and pull requests. Include your OS, Python version, command and sanitized failure output. Never include API keys, private `.env` contents or personal logs. Preserve the scientific constants, core code and recorded data; proposed scientific changes belong in a clearly separate experiment, not a silent change to this release. No maintenance or hosted-service availability promise is made.
+Contributions and reproducibility reports are welcome through [Issues](https://github.com/Sean-xzx/affective-sedimentation-llm-agent/issues) and pull requests. Include your OS, Python version, command and sanitized failure output. Never include API keys, private `.env` contents or personal logs. Preserve the scientific constants, core code and recorded data; proposed scientific changes belong in a clearly separate experiment, not a silent change to this release. No maintenance or hosted-service availability promise is made.
 
 ## Known limitations and troubleshooting
 
@@ -128,7 +128,7 @@ Contributions and reproducibility reports are welcome through [Issues](https://g
 
 ## Use conditions, sources and citation
 
-License selection is pending author confirmation. Until a `LICENSE` is added, no open-source license is granted. Data, paper text and figures retain their authors' rights; consult [resource provenance](docs/RESOURCE_PROVENANCE.md) before redistribution.
+Project code is available under the [MIT License](LICENSE). The author has authorized public distribution of the experiment ledger and authored paper/figures; these research resources retain their authors' rights and are not automatically relicensed as code. Consult [resource provenance](docs/RESOURCE_PROVENANCE.md) for scope and third-party conditions.
 
 The engineered appraisal map attributes non-neutral OCC-to-PAD values to Gebhard and Kipp (2006), Table 2; methodological and related-work references are in [refs.bib](paper/refs.bib) and the [evidence table](paper/LITERATURE_EVIDENCE.md). The repository distributes no third-party paper PDFs or model weights. The bundled bibliography style declares public-domain status in its header.
 

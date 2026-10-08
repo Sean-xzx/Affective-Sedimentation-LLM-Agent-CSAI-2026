@@ -5,6 +5,7 @@
     ".github/workflows/verify.yml",
     ".gitignore",
     "AGENTS.md",
+    "LICENSE",
     "README.md",
     "README.zh-CN.md",
     "affective-sedimentation-csai-2026-sprint-final.zh.md",
