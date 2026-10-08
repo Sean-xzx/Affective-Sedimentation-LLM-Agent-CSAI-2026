@@ -29,6 +29,13 @@ def test_row_4_fails_while_any_citation_is_only_retrieved(monkeypatch, tmp_path)
     assert ok is True and detail["status_counts"] == {"verified": 2}
 
 
+def test_row_5_reports_missing_compile_log(monkeypatch, tmp_path):
+    monkeypatch.setattr(r7_gate, "MAIN_LOG", tmp_path / "missing.log")
+    ok, detail = r7_gate.row_5_latex_warnings()
+    assert ok is False
+    assert detail["blocking"]["missing_compile_log"] == 1
+
+
 def test_row_5_blocks_on_overfull_but_not_on_output_vboxes(monkeypatch, tmp_path):
     log = tmp_path / "main.log"
     monkeypatch.setattr(r7_gate, "MAIN_LOG", log)

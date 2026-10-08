@@ -21,7 +21,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Runtime outputs (raw stays local; do not commit secrets)
+# Runtime outputs: publish only the approved immutable ledger and result artifacts.
 data/raw/**
 !data/raw/.gitkeep
 !data/raw/sprint_raw.jsonl

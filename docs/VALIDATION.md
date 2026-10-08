@@ -14,7 +14,15 @@ This file records measured checks and their limits, not a support promise.
 
 ## Publication checks
 
-Publication demo, read-only reproduction, independent-cache regression tests, selected-release-clone checks and remote CI are pending execution. This section will be updated with actual results before publication.
+- Fresh publication environment: 49 pinned packages, installed independently of the original virtual environment; four tokenizer files downloaded into a new project-local cache and SHA-256 verified.
+- Publication suite in that environment: **276 passed in 95.50 seconds** (274 original tests plus two publication tests), with the tokenizer offline.
+- Credential-free demo: PASS; two mock observations, zero live API attempts, numerical half-times 1/8/69.
+- Read-only scientific reproduction: PASS; 56 protected files, all locked primary statistics and the full stored secondary diagnostic report.
+- Documentation: PASS; 36 local links and matching bilingual executable examples and result values.
+- Selected 91-file publication snapshot cloned into an independent directory: demo, scientific verification and documentation checks passed; tokenizer resources were independently prepared there. Its first full suite found one portability defect: the paper-QA tool crashed on the deliberately excluded local compile log. The non-scientific QA tool now reports that missing prerequisite as a failed paper gate, with one additional regression test. Its final full-suite outcome is pending completion.
+- Paper compiled in a separate disposable directory: all four documented TeX/BibTeX steps exited 0 and produced a six-page PDF. No shipped source or PDF was overwritten. The local TeX compiler is MiKTeX; the build explicitly disabled automatic package installation.
+- Git credential authentication and the connected GitHub plugin both identify the intended owner, Sean-xzx. A pattern scan inspected 411 historical blobs and found no recognized credential patterns. This does not replace review of the selected publication contents.
+- Repository creation, license selection, public-data approval, push, remote clone and remote CI are pending. No upload is claimed.
 
 ## Explicitly outside the validated scope
 

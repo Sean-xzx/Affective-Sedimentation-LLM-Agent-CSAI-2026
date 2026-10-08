@@ -200,6 +200,9 @@ def row_5_latex_warnings() -> tuple[bool, dict]:
     floats left it short; it is unavoidable here and is counted but not blocking. An
     underfull ``\\hbox`` at badness 10000, by contrast, is a visibly stretched line.
     """
+    if not MAIN_LOG.is_file():
+        return False, {"blocking": {"missing_compile_log": 1},
+                       "note": "Compile the paper in a disposable clone to produce paper/main.log."}
     log = MAIN_LOG.read_text(encoding="utf-8", errors="replace")
     all_overfull = len(re.findall(r"^Overfull ", log, re.M))
     # Symmetric with the underfull case above: the output routine reports a page box it
