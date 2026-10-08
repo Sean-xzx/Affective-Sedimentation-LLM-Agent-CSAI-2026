@@ -1,55 +1,62 @@
 # Affective-Sedimentation-LLM-Agent-CSAI-2026
 
-[简体中文](README.zh-CN.md) · **[Paper PDF](paper/main.pdf)** · [Reproduction details](docs/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md)
+[简体中文](README.zh-CN.md) · **[Paper PDF](paper/main.pdf)** · [Architecture](docs/ARCHITECTURE.md) · [Validation](docs/VALIDATION.md)
 
-> **Accepted at CSAI 2026 — not yet published.**
-> **All rights reserved.** Public viewing only; other uses require prior written permission, subject to existing legal, platform and earlier-license rights. See [Rights and permissions](RIGHTS.md).
-> [Read the repository manuscript (PDF)](paper/main.pdf). This links to the file in this repository, not a publisher page.
+**Accepted at CSAI 2026; not yet published.** The PDF is the repository manuscript, not a publisher link.
 
-**Can accumulated interaction history influence an LLM agent's choices through an explicit affect-state interface?** This project investigates that question with a three-layer numerical controller and controlled behavioral comparisons.
+**All rights reserved.** Public viewing only; other uses require prior written permission, subject to existing legal, platform and earlier-license rights. See [RIGHTS.md](RIGHTS.md).
 
-Paper: **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent** — Zexian Xiong and Yan Li.
+## Value
 
-## Research at a glance
+This project separates event memory from an externally computed slow affect state, then tests whether state injection changes an LLM agent's choices. It addresses a research problem: distinguishing state-channel effects from the memory text an agent receives. Explicit controls make that interface measurable without changing model weights.
 
-- **Mechanism:** interaction events update fast, medium and slow P/A/D states. The controller computes these states outside the LLM, then supplies the resulting state and event memory in its prompt.
-- **Controlled comparisons:** Experiment E tests affect labels against numerically identical sensor metadata. Experiment N tests history-derived state against zero state while holding event memory fixed.
-- **Recorded evidence:** 756 formal observations and 80 development/stability observations are preserved with the code, manifests and analyses. Both primary gate suites pass on the frozen grid; none of the E axis-wise tests passes Holm correction.
+## My contribution
 
-The repository provides the controller, deterministic histories, fixed probes, Qwen adapter and recorded-result analysis. It is intended for developers studying agent-state interfaces and reproducible experiments. The first run uses a mock provider and requires no API key, GPU or paid model requests.
+**Zexian Xiong — first author.** Primarily responsible for mechanism design and validation, with involvement throughout the research. **Yan Li — supervisor, second author and corresponding author**, providing research guidance. The implementation, data collection, analysis and paper are presented as collaborative research outputs.
 
-**Start here:** [read the paper](paper/main.pdf) for the research, use [Quick start](#quick-start) for the demo and result reproduction only after obtaining permission, or read [Architecture](docs/ARCHITECTURE.md) for the module relationships.
+| My confirmed contribution | Concrete work | Evidence |
+|---|---|---|
+| Mechanism design | Proposed and designed affective sedimentation: a three-layer external controller maintaining slow P/A/D state | [Controller](sprint/dynamics.py), [paper](paper/main.pdf) |
+| Mechanism validation | Participated in designing preregistered experiments, the active sensor control and the same-memory zero-state ablation to evaluate choice changes | [Frozen design](configs/sprint_20260810.yaml), [renderer](sprint/renderer.py), [results](reports/final_results.json) |
 
-## Recorded results
+## Method
 
-The controller updates fast, medium and slow P/A/D states outside the model. Experiment E compares affect-labeled endpoints with numerically identical sensor metadata. Experiment N compares history-derived state with zero state while keeping event memory identical. The interpretive order is D (numerical checks), E, then N.
+`Interaction events → fast/medium/slow P/A/D state → prompt metadata → A/B choice → paired analysis`
 
-| Recorded quantity | Value |
-|---|---:|
-| Formal E observations | 180 |
-| Formal N observations | 576 |
-| Development/stability observations | 80 |
-| Total ledger records | 836 |
-| E effect, CS per rendered-z | 0.26775524691778746 |
-| E one-sided sign-flip p | 0.015625 |
-| N effect, direction-corrected CS | 0.10416666666666666 |
-| N one-sided sign-flip p | 0.00390625 |
+P/A/D represents valence, activation and perceived control. State is computed outside the model and supplied as background metadata that names no action. The key design choice is separating event memory from state, so each channel can be examined with explicit controls:
 
-Both recorded primary gate suites pass. None of the E axis-wise tests passes Holm correction. These are results on a frozen finite grid, not population guarantees. Effects are asymmetric and activation-dominated; saturated probes, one model snapshot and a short collection window limit interpretation. The experiment provides no evidence of internal emotion or personality formation.
+- **E — label control:** affect-labeled state versus numerically identical sensor metadata, without event memory.
+- **N — state ablation:** history-derived state versus zero state, with identical event memory.
 
-## Requirements
+AB/BA option counterbalancing, fixed seeds, frozen materials and predefined gates constrain the comparisons. These experiments test the prompt interface; they do not isolate a unique causal effect of the three-layer recurrence. The shared implementation combines NumPy dynamics, deterministic seeded histories, a six-worker Qwen runner, resumable logs and SHA-256 provenance. These provide auditable experiment execution. See the [architecture](docs/ARCHITECTURE.md).
 
-- Python **3.11.9** is verified on local Windows and in GitHub Actions on Ubuntu 24.04.5 and Windows Server 2025. macOS is untested.
-- No GPU, database, model weights, API key or paid service is required for the demo and recorded-result analysis.
-- Internet is needed to clone, install dependencies and fetch four proxy-tokenizer files for the full test suite. After resource preparation, the suite runs offline.
-- Allow several hundred MB for the Python environment and about 15 MB for tokenizer resources. Local regression tests took about 1-3 minutes; timing varies by machine.
-- Paper compilation additionally requires a TeX distribution containing `acmart`, `pdflatex` and `bibtex`; it is separate from statistical reproduction.
+## Results and evidence
+
+**756 formal observations**, plus 80 development/stability observations: **836 preserved ledger records**. Both primary gate suites pass on the frozen grid. CS denotes the counterbalanced choice score.
+
+| Experiment | Formal observations | Recorded effect | One-sided sign-flip p |
+|---|---:|---:|---:|
+| E: affect-minus-sensor slope, CS per rendered-z | 180 | 0.2678 | 0.015625 |
+| N: direction-corrected full-minus-zero CS | 576 | 0.1042 | 0.00390625 |
+
+<details>
+<summary>Exact stored effect values</summary>
+
+E: `0.26775524691778746`; N: `0.10416666666666666`.
+
+</details>
+
+[Raw ledger](data/raw/sprint_raw.jsonl) · [Locked results](reports/final_results.json) · [Paper PDF](paper/main.pdf)
+
+**Scope:** one Qwen snapshot and authored forced-choice probes. Nine of 15 E probes are saturated; none of the E axis-wise tests passes Holm correction. N's mean only narrowly exceeds the fixed 0.10 engineering threshold, and three of eight seed means fall below it. These results support a limited interface-level effect, not internal emotion, persistent personality or cross-model generality.
+
+**Engineering evidence:** the recorded validation includes **277 passing tests** on Windows and Ubuntu with Python 3.11.9. The credential-free demo checks the numerical controller and two mock observations; it demonstrates functionality, not a new behavioral result. [Validation details](docs/VALIDATION.md).
 
 ## Quick start
 
-**For the rights holders and users with prior written permission only.** These commands record the authors' validation procedure; providing them grants no permission to execute, reuse or modify the project. Read [RIGHTS.md](RIGHTS.md) before proceeding.
+**Only for rights holders and users with prior written permission.** Commands document the authors' procedure and grant no execution, reuse or modification permission.
 
-Once authorized, clone this repository and enter its root:
+Python **3.11.9** is verified on local Windows, Ubuntu 24.04.5 and Windows Server 2025; macOS is untested. No GPU, API key, model weights or paid requests are needed below. Internet is needed for installation and four tokenizer files (about 15 MB); allow several hundred MB for the environment. Tests take roughly 1–3 minutes locally.
 
 ```sh
 git clone https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026.git
@@ -69,7 +76,7 @@ Or on Linux/macOS:
 source .venv/bin/activate
 ```
 
-If PowerShell activation is restricted, use `.\.venv\Scripts\python.exe` in place of `python`; changing system execution policy is unnecessary. Then run:
+If PowerShell activation is blocked, use `.\.venv\Scripts\python.exe` instead of `python`. Then run:
 
 ```sh
 python -m pip install -r requirements-public.lock
@@ -80,72 +87,20 @@ python -m tools.reproduce test
 python -m tools.check_publication
 ```
 
-The demo uses a mock completion function and writes its two records only to a temporary directory. It does not send model requests or change the scientific ledger. Expected milestones:
+Success means every command exits 0: `Demo PASS`, numerical half-times **1/8/69**, two mock observations and `live_api_attempts=0`; `Verify PASS` reproduces the results above and checks 56 protected files; resource preparation verifies four tokenizer hashes; the suite reports **277 passed**. Tests can rebuild identical result files and generate ignored helper SVGs, so use a disposable clone if temporary writes are unacceptable.
 
-```text
-Demo PASS: numerical controller, history, renderer and mock runner.
-verify_paper_numbers: all locked fields match rebuild within tolerance
-Verify PASS: ... protected files, locked statistics and secondary diagnostics.
-Tokenizer ready: Qwen/Qwen3-0.6B @ c1899de289a04d12100db370d81485cdf75e47ca
-```
+## Configuration, structure and further reading
 
-The demo reports unit-step half-times `epsilon=1`, `m=8`, `s=69`, two mock observations and `live_api_attempts=0`. Verification must reproduce the table above and exit with status 0. The test command runs the original scientific suite plus publication-interface tests. See [validation evidence](docs/VALIDATION.md) for the measured pass count and verification limits.
+The [frozen config](configs/sprint_20260810.yaml) fixes 200-event histories, seed `20260804`, probes, budgets and the recorded model `qwen3.7-flash-2026-07-15`. [Resource metadata](docs/resources.json) pins `Qwen/Qwen3-0.6B` as a proxy tokenizer, not weights or a proven identical tokenizer for that hosted snapshot. Cache files stay in ignored `.cache/`. The publication lock supplies the complete test environment; historical dependency files remain unchanged.
 
-## Configuration and resources
+`sprint/` implements state, histories, rendering and collection; `tools/` analyses the ledger and provides the safe entry points; `tests/` protects behavior; `data/` and `reports/` hold recorded evidence; `paper/` contains the manuscript and figures. See [Architecture](docs/ARCHITECTURE.md) for module relationships and [Reproducibility](docs/REPRODUCIBILITY.md) for seeds, units, offline resources, hashes and TeX requirements.
 
-The frozen [configuration](configs/sprint_20260810.yaml) defines the 200-event histories, seed `20260804`, model identifier, request settings, thresholds and budgets. Do not alter it to repair a result or dependency problem. [Action mappings](materials/action_map.csv) and [21 probes](materials/sprint_probes.csv) are also frozen.
+Live hosted collection was not rerun during publication and can incur charges. `.env.example` describes the optional `DASHSCOPE_API_KEY`; the adapter reads environment variables and does not load `.env` on import. Keep scientific code/data frozen. Run modules from the root and prepare the tokenizer before tests. Passing tests does not certify camera-ready paper readiness; historical PDF locks and submission notes may describe earlier revisions.
 
-The recorded model identifier is `qwen3.7-flash-2026-07-15`. The offline tokenizer is a **proxy**, `Qwen/Qwen3-0.6B`, not model weights or a verified byte-identical tokenizer for that hosted snapshot. [Resource metadata](docs/resources.json) pins its revision and SHA-256 values. Preparation places it in ignored `.cache/huggingface/`; the test wrapper resolves the default tokenizer name to the verified local snapshot and disables network access.
+Questions, permission requests and authorized-run reports: [Issues](https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026/issues). No unlicensed patches or functional changes are invited; include sanitized output, OS, Python version and commit SHA. No maintenance or hosted-service availability promise is made.
 
-The original `requirements.txt` and `requirements.lock` are retained byte-for-byte because their hashes are part of the experiment. `requirements-public.lock` adds the missing publication/test dependencies, including `pypdf`, `pandas` and `seaborn`, without rewriting the historical lock.
+## Paper, sources and rights
 
-`.env.example` documents the optional `DASHSCOPE_API_KEY`. The adapter reads environment variables; importing the package does not load `.env`. No quick-start command requires credentials. Hosted collection can incur charges and was **not** rerun or verified in this publication task. There is deliberately no live collection command in the quick start.
+Zexian Xiong and Yan Li, **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent**. Cite the [manuscript](paper/main.pdf) and the repository commit used; no publication DOI is asserted. Non-neutral appraisal values are attributed to Gebhard and Kipp (2006), Table 2; see [references](paper/refs.bib), [literature evidence](paper/LITERATURE_EVIDENCE.md) and [resource provenance](docs/RESOURCE_PROVENANCE.md).
 
-## Structure and entry points
-
-```text
-configs/                 Frozen experiment configuration
-materials/               Action map and development/formal probes
-sprint/                  Controller, histories, renderer, adapter and runner
-tools/                   Analysis, diagnostics, safe reproduction and checks
-tests/sprint/            Original scientific regression suite
-tests/publication/       Safe-demo and release-integrity tests
-data/raw/                Recorded immutable JSONL ledger
-data/derived/            Recorded analysis summary
-reports/                 Frozen manifests, statistics and diagnostics
-paper/                   Paper source, bibliography and figure resources
-docs/                    Architecture, provenance, resources and validation
-.github/workflows/       Offline reproducibility CI
-```
-
-The action map feeds deterministic histories; `dynamics.py` computes slow state; `renderer.py` writes state and memory into the prompt. `runner.py` combines probes, schedules and the provider, then appends request records. `tools/analysis_core.py` reads the ledger and randomization manifest to compute E/N statistics. `sprint/analysis.py` re-exports those functions. Secondary diagnostics and plotting tools explain the response structure; the paper consumes selected figures. [The architecture guide](docs/ARCHITECTURE.md) describes this flow and the distinction between frozen analysis and secondary diagnostics.
-
-## Reproduction and development
-
-- `python -m tools.reproduce demo`: numerical and mock-runner functionality; no tokenizer download or credentials.
-- `python -m tools.reproduce verify`: read-only byte-integrity, locked-statistic and secondary-diagnostic reproduction.
-- `python -m tools.prepare_resources`: network download of pinned tokenizer resources only.
-- `python -m tools.reproduce test`: original regression tests and publication tests, with an offline tokenizer cache.
-- `python -m tools.check_publication`: local documentation links and bilingual command/result parity.
-- [Detailed reproduction guide](docs/REPRODUCIBILITY.md): sampling, seeds, units, hashes, paper compilation and artifact limits.
-
-Some legacy analysis/export commands write into `reports/` or `paper/figures/`. Use a disposable clone when experimenting with them. The safe commands above do not change frozen scientific bytes after completion. Original regression tests rebuild identical result files and create two ignored helper SVGs; use a disposable clone if you need a completely write-free checkout. Git attributes preserve scientific bytes across platforms, since even a line-ending change can invalidate a recorded hash.
-
-Questions, permission requests and authorized reproducibility reports may be submitted through [Issues](https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026/issues). Public availability does not authorize patches, functional changes, derivative projects or redistribution. Do not submit code changes without the rights holders' prior written permission. Include your OS, Python version, command and sanitized failure output when reporting an authorized run. Never include credentials or private logs. No maintenance or hosted-service availability promise is made.
-
-## Known limitations and troubleshooting
-
-- Run module commands from the repository root. A missing module usually indicates the wrong directory or inactive environment.
-- If tests cannot load the tokenizer, run resource preparation first; do not replace the proxy or relax material gates. See the detailed guide for offline copying.
-- The original freeze manifest contains two null hash fields and a historical dependency hash. [Recorded deviations](reports/deviations.md) explain where later analysis hashes were sealed; do not rewrite that manifest.
-- Historical submission reports may refer to earlier paper versions. Current PDF bytes, citation review status and image resolution must be reviewed independently before a submission. The old PDF hash lock does not identify the current PDF.
-- Passing regression tests does not certify publication readiness. Citation verification and submission steps remain human tasks. The paper QA gate can fail while scientific reproduction passes.
-- Windows symlink warnings and the absence of PyTorch/TensorFlow are harmless for this tokenizer-only workflow. The tested Windows/Linux environments are listed above; other systems and language versions require separate verification.
-
-## Use conditions, sources and citation
-
-**All rights reserved; no open-source license is offered for this revision.** Project-owned code, documentation, research materials, data, paper text and figures remain the property of their respective rights holders. Beyond public viewing, execution, reuse, modification, redistribution, derivative works and commercial use require prior written permission, except rights already granted or required by law or GitHub's terms. See [Rights and permissions](RIGHTS.md) for the prior MIT-version limitation, and [resource provenance](docs/RESOURCE_PROVENANCE.md) for independent third-party conditions.
-
-The engineered appraisal map attributes non-neutral OCC-to-PAD values to Gebhard and Kipp (2006), Table 2; methodological and related-work references are in [refs.bib](paper/refs.bib) and the [evidence table](paper/LITERATURE_EVIDENCE.md). The repository distributes no third-party paper PDFs or model weights. The bundled bibliography style declares public-domain status in its header.
-
-When referring to this experiment, cite the paper by Zexian Xiong and Yan Li, **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent**, and include the repository commit used. The authors confirm acceptance at CSAI 2026; the paper has not yet been published. The [repository manuscript PDF](paper/main.pdf) is available above. No publication DOI is asserted.
+No open-source license is offered for this revision. [RIGHTS.md](RIGHTS.md) defines the permission policy and the limits arising from earlier MIT grants and GitHub platform rights. Third-party dependencies and resources retain their own terms.
