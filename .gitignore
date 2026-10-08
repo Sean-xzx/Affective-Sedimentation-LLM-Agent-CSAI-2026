@@ -60,3 +60,7 @@ paper/**/*.out
 paper/**/*.synctex.gz
 paper/**/*.fls
 paper/**/*.fdb_latexmk
+
+# Disposable helper plots emitted by the original analysis regression tests.
+paper/figures/fig_theta_e.svg
+paper/figures/fig_theta_n.svg

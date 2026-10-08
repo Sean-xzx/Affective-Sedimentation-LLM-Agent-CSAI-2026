@@ -25,7 +25,7 @@
 
 ## 环境要求
 
-- 本地验证版本为 Python **3.11.9**，操作系统为 Windows。Linux 是 CI 目标，实际检查状态以 GitHub Actions 为准。
+- Python **3.11.9** 已在本地 Windows，以及 GitHub Actions 的 Ubuntu 24.04.5 和 Windows Server 2025 上验证。macOS 未测试。
 - 演示和已记录结果分析不需要 GPU、数据库、模型权重、API 密钥或付费服务。
 - 克隆、安装依赖以及为完整测试下载四个代理 tokenizer 文件需要联网。资源准备完成后，测试套件离线运行。
 - Python 环境需预留数百 MB，tokenizer 资源约 15 MB。本地回归测试耗时约 1-3 分钟，耗时随机器变化。
@@ -113,7 +113,7 @@ docs/                    架构、来源、资源与验证说明
 - `python -m tools.check_publication`：检查本地文档链接及中英文命令、结果的一致性。
 - [详细复现说明](docs/REPRODUCIBILITY.md)：采样、seed、分析单位、哈希、论文编译与产物限制。
 
-部分原有分析和制图命令会写入 `reports/`或 `paper/figures/`，请在可丢弃的克隆副本中试验。上述安全入口不会改写冻结科学结果。Git 属性保留科学文件跨平台的字节，因为换行变化也可能使记录的哈希失效。
+部分原有分析和制图命令会写入 `reports/`或 `paper/figures/`，请在可丢弃的克隆副本中试验。上述安全入口完成后，冻结科学文件的字节保持不变。原有回归测试会重建内容相同的结果文件，并生成两个被忽略的辅助 SVG；若要求原工作目录完全不发生写入，请使用可丢弃的克隆副本。Git 属性保留科学文件跨平台的字节，因为换行变化也可能使记录的哈希失效。
 
 欢迎通过 [Issues](https://github.com/Sean-xzx/affective-sedimentation-llm-agent/issues) 和 Pull Request 提交复现问题或改进。请附操作系统、Python 版本、命令及脱敏后的错误输出；不要包含 API 密钥、私人 `.env`或个人日志。保留科学常数、核心代码和已记录数据；新的科学设计应成为明确分离的实验，不应悄悄改变本版本。不承诺长期维护或托管服务可用性。
 
@@ -124,7 +124,7 @@ docs/                    架构、来源、资源与验证说明
 - 原始冻结清单保留两个空哈希字段及历史依赖哈希。[偏离记录](reports/deviations.md)说明后续分析哈希的锁定位置；不要改写清单。
 - 历史投稿报告可能对应较早稿件。提交前需要独立核对当前 PDF、文献核验状态和图像分辨率；旧 PDF 哈希锁不对应当前 PDF。
 - 回归测试通过不代表论文已满足投稿要求。文献核验和提交仍属于人工任务；论文 QA 门可能失败，同时科学复现通过。
-- Windows 的 symlink 警告及未安装 PyTorch/TensorFlow 不影响只使用 tokenizer 的流程。不能从 Windows 验证推断 Linux/macOS 兼容性，请查看 CI 或自行运行测试。
+- Windows 的 symlink 警告及未安装 PyTorch/TensorFlow 不影响只使用 tokenizer 的流程。已测试的 Windows/Linux 环境见上文，其他系统和语言版本需另行验证。
 
 ## 使用条件、来源与引用
 

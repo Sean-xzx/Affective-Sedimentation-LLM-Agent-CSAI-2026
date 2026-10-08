@@ -25,7 +25,7 @@ Both recorded primary gate suites pass. None of the E axis-wise tests passes Hol
 
 ## Requirements
 
-- Python **3.11.9** is the locally verified version; Windows is verified locally. Linux is a CI target, with its actual status visible in GitHub Actions.
+- Python **3.11.9** is verified on local Windows and in GitHub Actions on Ubuntu 24.04.5 and Windows Server 2025. macOS is untested.
 - No GPU, database, model weights, API key or paid service is required for the demo and recorded-result analysis.
 - Internet is needed to clone, install dependencies and fetch four proxy-tokenizer files for the full test suite. After resource preparation, the suite runs offline.
 - Allow several hundred MB for the Python environment and about 15 MB for tokenizer resources. Local regression tests took about 1-3 minutes; timing varies by machine.
@@ -113,7 +113,7 @@ The action map feeds deterministic histories; `dynamics.py` computes slow state;
 - `python -m tools.check_publication`: local documentation links and bilingual command/result parity.
 - [Detailed reproduction guide](docs/REPRODUCIBILITY.md): sampling, seeds, units, hashes, paper compilation and artifact limits.
 
-Some legacy analysis/export commands write into `reports/` or `paper/figures/`. Use a disposable clone when experimenting with them. The safe commands above do not rewrite frozen scientific results. Git attributes preserve scientific bytes across platforms, since even a line-ending change can invalidate a recorded hash.
+Some legacy analysis/export commands write into `reports/` or `paper/figures/`. Use a disposable clone when experimenting with them. The safe commands above do not change frozen scientific bytes after completion. Original regression tests rebuild identical result files and create two ignored helper SVGs; use a disposable clone if you need a completely write-free checkout. Git attributes preserve scientific bytes across platforms, since even a line-ending change can invalidate a recorded hash.
 
 Contributions and reproducibility reports are welcome through [Issues](https://github.com/Sean-xzx/affective-sedimentation-llm-agent/issues) and pull requests. Include your OS, Python version, command and sanitized failure output. Never include API keys, private `.env` contents or personal logs. Preserve the scientific constants, core code and recorded data; proposed scientific changes belong in a clearly separate experiment, not a silent change to this release. No maintenance or hosted-service availability promise is made.
 
@@ -124,7 +124,7 @@ Contributions and reproducibility reports are welcome through [Issues](https://g
 - The original freeze manifest contains two null hash fields and a historical dependency hash. [Recorded deviations](reports/deviations.md) explain where later analysis hashes were sealed; do not rewrite that manifest.
 - Historical submission reports may refer to earlier paper versions. Current PDF bytes, citation review status and image resolution must be reviewed independently before a submission. The old PDF hash lock does not identify the current PDF.
 - Passing regression tests does not certify publication readiness. Citation verification and submission steps remain human tasks. The paper QA gate can fail while scientific reproduction passes.
-- Windows symlink warnings and the absence of PyTorch/TensorFlow are harmless for this tokenizer-only workflow. Linux/macOS compatibility is not inferred from the Windows test result; check CI or run the suite yourself.
+- Windows symlink warnings and the absence of PyTorch/TensorFlow are harmless for this tokenizer-only workflow. The tested Windows/Linux environments are listed above; other systems and language versions require separate verification.
 
 ## Use conditions, sources and citation
 

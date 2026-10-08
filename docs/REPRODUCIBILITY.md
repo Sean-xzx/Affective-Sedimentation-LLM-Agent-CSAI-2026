@@ -38,7 +38,7 @@ The original freeze manifest intentionally retains two null fields and an older 
 
 ## Analysis exports and paper compilation
 
-The safe verifier leaves all scientific artifacts unchanged. Legacy commands such as `python -m tools.analysis_core rebuild`, `python -m tools.diagnostics` and the figure exporters write outputs. Use a disposable clone if you want to try them. `tools/export_locked_figures.py` consumes plot-ready data and diagnostics and wraps authored raster artwork; it does not regenerate the artistic source of every paper figure.
+The safe verifier leaves all scientific artifacts unchanged. The original regression suite calls the analysis rebuild: protected result files finish with identical bytes, and two auxiliary `fig_theta_e.svg` / `fig_theta_n.svg` plots are generated and ignored. Run the suite in a disposable clone if temporary writes are unacceptable. Legacy commands such as `python -m tools.analysis_core rebuild`, `python -m tools.diagnostics` and the figure exporters write outputs. Use a disposable clone if you want to try them. `tools/export_locked_figures.py` consumes plot-ready data and diagnostics and wraps authored raster artwork; it does not regenerate the artistic source of every paper figure.
 
 To compile a **copy** of the standalone paper source, use a TeX installation containing acmart and the required packages:
 
