@@ -1,0 +1,11 @@
+action,listener_label,intensity,pad_P,pad_A,pad_D,source_page,source_hash
+praise,Admiration,0.8,0.4,0.3,-0.24,GebhardKipp2006_table2:Admiration,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+criticize,Shame,0.9,-0.3,0.1,-0.6,GebhardKipp2006_table2:Shame,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+share_good_news,HappyFor,0.8,0.4,-0.2,-0.2,GebhardKipp2006_table2:HappyFor,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+share_bad_news,Pity,0.8,-0.4,-0.2,-0.5,GebhardKipp2006_table2:Pity,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+disagree,Disappointment,0.6,-0.3,-0.4,-0.4,GebhardKipp2006_table2:Disappointment,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+concede,Gratification,0.6,0.6,-0.3,0.4,GebhardKipp2006_table2:Gratification,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+express_affection,Love,0.7,0.3,0.1,0.2,GebhardKipp2006_table2:Love,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+provoke,Anger,0.8,-0.51,0.59,0.25,GebhardKipp2006_table2:Anger,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+condescend,Reproach,0.7,-0.3,-0.1,0.4,GebhardKipp2006_table2:Reproach,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf
+neutral_acknowledgment,Neutral,1.0,0.0,0.0,0.0,protocol_s2.3_engineered:Neutral,ed00da0e3ceb6bc2436539621fe91d9b87390bed11303eb818f2566277be6fcf

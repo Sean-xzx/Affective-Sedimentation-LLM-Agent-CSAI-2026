@@ -1,0 +1,16 @@
+{
+  "source": "reports/plot_ready",
+  "figures": [
+    "fig_mechanism.pdf",
+    "fig_E_items.pdf",
+    "fig_N_seeds.pdf",
+    "fig_E_grid.pdf",
+    "fig_E_split.pdf",
+    "fig_N_dirseed.pdf",
+    "fig_E_units.pdf",
+    "fig_N_structure.pdf"
+  ],
+  "canvas_width_in": 7.0,
+  "theta_E": 0.26775524691778746,
+  "theta_N": 0.10416666666666666
+}

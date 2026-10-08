@@ -1,0 +1,47 @@
+# Frozen constants from protocol Appendix A.
+# Do not edit after scientific freeze (2026-08-06 20:00).
+
+protocol_profile: csai_2026_sprint_s1
+master_seed: 20260804
+T: 200
+lambda: 0.40
+alpha: 0.10
+gamma_0: 0.02
+tau: 50
+p: 1.0
+beta: 0
+
+agent_model: qwen3.7-flash-2026-07-15
+temperature: 0
+top_p: 1
+max_tokens: 16
+request_seed: null
+enable_thinking: false
+tools: "off"
+search: "off"
+response_format:
+  type: json_object
+tokenizer: qwen3.7-flash-2026-07-15
+tokenizer_load_id: Qwen/Qwen3-0.6B
+provider_region: cn-beijing
+max_workers: 6
+timeout_seconds: 30
+max_retries: 3
+
+formal_probes_per_dimension: 5
+replay_probes_per_dimension: 3
+history_seed_ids: [14, 24, 5, 18, 22, 13, 1, 26]
+history_checkpoint: 200
+
+experiment_E_observations: 180
+experiment_N_observations: 576
+formal_observations_total: 756
+development_completed_cap: 120
+attempt_pause: 990
+attempt_hard_stop: 1100
+
+MES_E: 0.10
+MES_N: 0.10
+alpha_E_one_sided: 0.05
+alpha_N_one_sided: 0.05
+bootstrap_repetitions: 5000

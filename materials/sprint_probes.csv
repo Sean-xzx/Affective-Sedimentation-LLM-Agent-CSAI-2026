@@ -1,0 +1,190 @@
+probe_id,target_dimension,scenario_family,neutral_scenario,high_option,low_option,semantic_key,ab_rendering,ba_rendering,token_ids,review_flags,set
+P-D01,P,workplace,A teammate submits a draft report with several factual errors before the client meeting.,Note the main factual issues and offer to go through those sections with them before the meeting.,Send a brief written note listing the main factual issues so they can revise before the meeting.,P-D01,"Option A
+Note the main factual issues and offer to go through those sections with them before the meeting.
+
+Option B
+Send a brief written note listing the main factual issues so they can revise before the meeting.","Option A
+Send a brief written note listing the main factual issues so they can revise before the meeting.
+
+Option B
+Note the main factual issues and offer to go through those sections with them before the meeting.","{""high"":[9112,279,1887,59901,4714,323,3010,311,728,1526,1846,14158,448,1105,1573,279,6438,13],""low"":[11505,264,9814,5326,5185,14838,279,1887,59901,4714,773,807,646,64736,1573,279,6438,13]}",dual_pass_ok,dev
+P-D02,P,social,A friend proposes a restaurant for a group dinner that you think others may not enjoy.,Thank them for the suggestion and offer one other venue the group could consider.,Thank them for the suggestion and ask the chat for one preference each before choosing.,P-D02,"Option A
+Thank them for the suggestion and offer one other venue the group could consider.
+
+Option B
+Thank them for the suggestion and ask the chat for one preference each before choosing.","Option A
+Thank them for the suggestion and ask the chat for one preference each before choosing.
+
+Option B
+Thank them for the suggestion and offer one other venue the group could consider.","{""high"":[13060,1105,369,279,23776,323,3010,825,1008,21434,279,1874,1410,2908,13],""low"":[13060,1105,369,279,23776,323,2548,279,6236,369,825,21933,1817,1573,18774,13]}",dual_pass_ok,dev
+P-C01,P,workplace,"During a stand-up, a colleague describes progress on a task that clearly fell short of what was agreed.",Ask what blocked progress and propose a revised timeline you can both review together.,Ask which tasks remain and propose target dates the team can review in writing.,P-C01,"Option A
+Ask what blocked progress and propose a revised timeline you can both review together.
+
+Option B
+Ask which tasks remain and propose target dates the team can review in writing.","Option A
+Ask which tasks remain and propose target dates the team can review in writing.
+
+Option B
+Ask what blocked progress and propose a revised timeline you can both review together.","{""high"":[26172,1128,19299,5098,323,29614,264,31728,24808,498,646,2176,3395,3786,13],""low"":[26172,892,9079,7146,323,29614,2169,12713,279,2083,646,3395,304,4378,13]}",dual_pass_ok,formal
+P-C02,P,community,A neighbor asks you to watch their package delivery while they are away for the weekend.,"Confirm you can receive it, share when you will be home, and offer to message them once it arrives.",Confirm you can receive it during the hours you will be home and ask them to send the tracking number.,P-C02,"Option A
+Confirm you can receive it, share when you will be home, and offer to message them once it arrives.
+
+Option B
+Confirm you can receive it during the hours you will be home and ask them to send the tracking number.","Option A
+Confirm you can receive it during the hours you will be home and ask them to send the tracking number.
+
+Option B
+Confirm you can receive it, share when you will be home, and offer to message them once it arrives.","{""high"":[16728,498,646,5258,432,11,4332,979,498,686,387,2114,11,323,3010,311,1943,1105,3055,432,29682,13],""low"":[16728,498,646,5258,432,2337,279,4115,498,686,387,2114,323,2548,1105,311,3624,279,14849,1372,13]}",dual_pass_ok,formal
+P-C03,P,academic,"In a study group, one member keeps interrupting with off-topic jokes during exam prep.",Acknowledge the jokes briefly and ask everyone to finish the current review section together before more side talk.,"Acknowledge the jokes briefly, then propose turn-taking: one speaker finishes each review item before others talk.",P-C03,"Option A
+Acknowledge the jokes briefly and ask everyone to finish the current review section together before more side talk.
+
+Option B
+Acknowledge the jokes briefly, then propose turn-taking: one speaker finishes each review item before others talk.","Option A
+Acknowledge the jokes briefly, then propose turn-taking: one speaker finishes each review item before others talk.
+
+Option B
+Acknowledge the jokes briefly and ask everyone to finish the current review section together before more side talk.","{""high"":[55559,51186,279,31420,26753,323,2548,5019,311,6248,279,1482,3395,3772,3786,1573,803,3108,3061,13],""low"":[55559,51186,279,31420,26753,11,1221,29614,2484,79571,25,825,18601,33036,1817,3395,1509,1573,3800,3061,13]}",dual_pass_ok,formal
+P-C04,P,family,A relative shares photos from a trip you did not attend and asks what you think.,Comment on two details you notice and ask one question about their favorite moment from the trip.,Say the photos look great and ask which part of the trip they would recommend visiting.,P-C04,"Option A
+Comment on two details you notice and ask one question about their favorite moment from the trip.
+
+Option B
+Say the photos look great and ask which part of the trip they would recommend visiting.","Option A
+Say the photos look great and ask which part of the trip they would recommend visiting.
+
+Option B
+Comment on two details you notice and ask one question about their favorite moment from the trip.","{""high"":[10677,389,1378,3565,498,5293,323,2548,825,3405,911,862,6930,4445,504,279,8411,13],""low"":[45764,279,7249,1401,2244,323,2548,892,949,315,279,8411,807,1035,6934,16721,13]}",dual_pass_ok,formal
+P-C05,P,volunteer,"At a community event, a new volunteer asks for guidance on a task they have never done.",Walk through the first step with them and confirm they know who to ask if questions come up.,Point them to the instruction sheet and the name of the lead volunteer for any follow-up questions.,P-C05,"Option A
+Walk through the first step with them and confirm they know who to ask if questions come up.
+
+Option B
+Point them to the instruction sheet and the name of the lead volunteer for any follow-up questions.","Option A
+Point them to the instruction sheet and the name of the lead volunteer for any follow-up questions.
+
+Option B
+Walk through the first step with them and confirm they know who to ask if questions come up.","{""high"":[48849,1526,279,1156,3019,448,1105,323,7683,807,1414,879,311,2548,421,4755,2525,705,13],""low"":[2609,1105,311,279,7600,10834,323,279,829,315,279,2990,25144,369,894,1795,5239,4755,13]}",dual_pass_ok,formal
+A-D01,A,workplace,The team receives last-minute news that a demo was moved up by one day.,Call a quick huddle to assign tasks and start executing right away.,Send a written summary of next steps and plan to regroup tomorrow morning.,A-D01,"Option A
+Call a quick huddle to assign tasks and start executing right away.
+
+Option B
+Send a written summary of next steps and plan to regroup tomorrow morning.","Option A
+Send a written summary of next steps and plan to regroup tomorrow morning.
+
+Option B
+Call a quick huddle to assign tasks and start executing right away.","{""high"":[7220,264,3974,305,74984,311,9793,9079,323,1191,30220,1290,3123,13],""low"":[11505,264,5326,12126,315,1790,7354,323,3119,311,1217,886,16577,6556,13]}",dual_pass_ok,dev
+A-D02,A,social,Friends suggest continuing the evening at a louder venue after dinner.,Join the move and suggest an activity for everyone once you arrive there.,Head home and send a brief message that you are done for tonight.,A-D02,"Option A
+Join the move and suggest an activity for everyone once you arrive there.
+
+Option B
+Head home and send a brief message that you are done for tonight.","Option A
+Head home and send a brief message that you are done for tonight.
+
+Option B
+Join the move and suggest an activity for everyone once you arrive there.","{""high"":[12292,279,3271,323,4190,458,5702,369,5019,3055,498,17331,1052,13],""low"":[12346,2114,323,3624,264,9814,1943,429,498,525,2814,369,17913,13]}",dual_pass_ok,dev
+A-C01,A,club,Your club needs someone to lead opening exercises before practice starts in five minutes.,"Step in, outline two quick drills, and get the group moving.",Remain in the circle and wait for the usual coach to arrive.,A-C01,"Option A
+Step in, outline two quick drills, and get the group moving.
+
+Option B
+Remain in the circle and wait for the usual coach to arrive.","Option A
+Remain in the circle and wait for the usual coach to arrive.
+
+Option B
+Step in, outline two quick drills, and get the group moving.","{""high"":[8304,304,11,21101,1378,3974,56548,11,323,633,279,1874,7218,13],""low"":[6590,466,304,279,12671,323,3783,369,279,13475,7247,311,17331,13]}",dual_pass_ok,formal
+A-C02,A,workplace,A client email reports a broken feature one hour before your shift ends.,Start triaging logs and ping the on-call channel right away.,Log the ticket and leave a note for the morning team to investigate.,A-C02,"Option A
+Start triaging logs and ping the on-call channel right away.
+
+Option B
+Log the ticket and leave a note for the morning team to investigate.","Option A
+Log the ticket and leave a note for the morning team to investigate.
+
+Option B
+Start triaging logs and ping the on-call channel right away.","{""high"":[3479,2406,4118,18422,323,29998,279,389,58897,5496,1290,3123,13],""low"":[2201,279,11727,323,5274,264,5185,369,279,6556,2083,311,19314,13]}",dual_pass_ok,formal
+A-C03,A,academic,The instructor asks for a volunteer to present first in today's session.,Offer to go first and begin setting up the slides.,Wait for someone else to volunteer and prepare your notes quietly.,A-C03,"Option A
+Offer to go first and begin setting up the slides.
+
+Option B
+Wait for someone else to volunteer and prepare your notes quietly.","Option A
+Wait for someone else to volunteer and prepare your notes quietly.
+
+Option B
+Offer to go first and begin setting up the slides.","{""high"":[39462,311,728,1156,323,3161,6243,705,279,21521,13],""low"":[14190,369,4325,770,311,25144,323,10549,697,8388,29566,13]}",dual_pass_ok,formal
+A-C04,A,family,Relatives ask for help setting up chairs and tables before a large meal.,Grab the chair stack and coordinate where each table should go.,Clear space at one table and let others handle the rest.,A-C04,"Option A
+Grab the chair stack and coordinate where each table should go.
+
+Option B
+Clear space at one table and let others handle the rest.","Option A
+Clear space at one table and let others handle the rest.
+
+Option B
+Grab the chair stack and coordinate where each table should go.","{""high"":[55922,279,10496,5611,323,16184,1380,1817,1965,1265,728,13],""low"":[14008,3550,518,825,1965,323,1077,3800,3705,279,2732,13]}",dual_pass_ok,formal
+A-C05,A,outdoor,The hiking group reaches a fork and no one is sure which trail marker applies.,Check the map aloud and propose a route for the group to try.,Stay with the group and wait for the designated leader to decide.,A-C05,"Option A
+Check the map aloud and propose a route for the group to try.
+
+Option B
+Stay with the group and wait for the designated leader to decide.","Option A
+Stay with the group and wait for the designated leader to decide.
+
+Option B
+Check the map aloud and propose a route for the group to try.","{""high"":[3973,279,2415,70411,323,29614,264,6021,369,279,1874,311,1430,13],""low"":[38102,448,279,1874,323,3783,369,279,23195,7653,311,10279,13]}",dual_pass_ok,formal
+D-D01,D,workplace,"In a budget meeting, senior staff ask for your view on cutting one line item.",Present your recommendation with supporting numbers and ask for input.,Ask which option they prefer and align with the majority view.,D-D01,"Option A
+Present your recommendation with supporting numbers and ask for input.
+
+Option B
+Ask which option they prefer and align with the majority view.","Option A
+Ask which option they prefer and align with the majority view.
+
+Option B
+Present your recommendation with supporting numbers and ask for input.","{""high"":[21195,697,27682,448,12613,5109,323,2548,369,1946,13],""low"":[26172,892,2999,807,10702,323,5285,448,279,8686,1651,13]}",dual_pass_ok,dev
+D-D02,D,household,Roommates are split about the cleaning schedule for shared spaces.,Propose a fixed rotation and post it on the shared board today.,Offer to follow whatever cleaning schedule the others settle on for now.,D-D02,"Option A
+Propose a fixed rotation and post it on the shared board today.
+
+Option B
+Offer to follow whatever cleaning schedule the others settle on for now.","Option A
+Offer to follow whatever cleaning schedule the others settle on for now.
+
+Option B
+Propose a fixed rotation and post it on the shared board today.","{""high"":[2008,960,264,8356,12695,323,1736,432,389,279,6094,4479,3351,13],""low"":[39462,311,1795,8820,15826,9700,279,3800,24729,389,369,1431,13]}",dual_pass_ok,dev
+D-C01,D,workplace,Your project group has no assigned lead for this week's deliverable.,"Outline milestones, assign roles, and set check-in times for the week.",Wait for someone else to propose a plan and then volunteer for one task.,D-C01,"Option A
+Outline milestones, assign roles, and set check-in times for the week.
+
+Option B
+Wait for someone else to propose a plan and then volunteer for one task.","Option A
+Wait for someone else to propose a plan and then volunteer for one task.
+
+Option B
+Outline milestones, assign roles, and set check-in times for the week.","{""high"":[60269,68276,11,9793,12783,11,323,738,1779,3419,3039,369,279,2003,13],""low"":[14190,369,4325,770,311,29614,264,3119,323,1221,25144,369,825,3383,13]}",dual_pass_ok,formal
+D-C02,D,social,Friends are debating train times for a day trip and messages are going in circles.,Compare the two schedules and pick one to book unless someone objects.,Say you are fine with either time and leave the decision to others.,D-C02,"Option A
+Compare the two schedules and pick one to book unless someone objects.
+
+Option B
+Say you are fine with either time and leave the decision to others.","Option A
+Say you are fine with either time and leave the decision to others.
+
+Option B
+Compare the two schedules and pick one to book unless someone objects.","{""high"":[27374,279,1378,36769,323,3735,825,311,2311,7241,4325,6171,13],""low"":[45764,498,525,6915,448,2987,882,323,5274,279,5480,311,3800,13]}",dual_pass_ok,formal
+D-C03,D,volunteer,A committee meeting runs over time and the chair asks how to proceed.,Suggest ending debate on the current item and voting before adjourning.,Defer to the chair's preference on whether to continue or stop.,D-C03,"Option A
+Suggest ending debate on the current item and voting before adjourning.
+
+Option B
+Defer to the chair's preference on whether to continue or stop.","Option A
+Defer to the chair's preference on whether to continue or stop.
+
+Option B
+Suggest ending debate on the current item and voting before adjourning.","{""high"":[50,3799,13391,11004,389,279,1482,1509,323,15668,1573,12469,413,1229,13],""low"":[1912,802,311,279,10496,594,21933,389,3425,311,3060,476,2936,13]}",dual_pass_ok,formal
+D-C04,D,academic,The study group cannot agree on which practice problems to prioritize.,Rank the topics by due date and assign each person one section to explain.,Go along with the latest suggestion and follow their shared problem list closely.,D-C04,"Option A
+Rank the topics by due date and assign each person one section to explain.
+
+Option B
+Go along with the latest suggestion and follow their shared problem list closely.","Option A
+Go along with the latest suggestion and follow their shared problem list closely.
+
+Option B
+Rank the topics by due date and assign each person one section to explain.","{""high"":[22550,279,13347,553,4152,2400,323,9793,1817,1697,825,3772,311,10339,13],""low"":[10850,3156,448,279,5535,23776,323,1795,862,6094,3491,1140,15148,13]}",dual_pass_ok,formal
+D-C05,D,workplace,Two teammates give you conflicting instructions about which file version to send.,State which version you will send and ask both to confirm by a set time.,Wait until they resolve the conflict and then tell you which file to use.,D-C05,"Option A
+State which version you will send and ask both to confirm by a set time.
+
+Option B
+Wait until they resolve the conflict and then tell you which file to use.","Option A
+Wait until they resolve the conflict and then tell you which file to use.
+
+Option B
+State which version you will send and ask both to confirm by a set time.","{""high"":[1397,892,2319,498,686,3624,323,2548,2176,311,7683,553,264,738,882,13],""low"":[14190,3080,807,8830,279,12055,323,1221,3291,498,892,1034,311,990,13]}",dual_pass_ok,formal

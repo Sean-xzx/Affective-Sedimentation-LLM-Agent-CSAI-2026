@@ -1,0 +1,11 @@
+# Sprint runtime + test dependencies (clean install in this folder).
+numpy==2.4.6
+openai==2.50.0
+python-dotenv==1.2.2
+PyYAML==6.0.2
+pytest==8.4.1
+scipy==1.17.1
+transformers==4.57.6
+matplotlib==3.11.1
+seaborn==0.13.2
+pandas==3.0.1

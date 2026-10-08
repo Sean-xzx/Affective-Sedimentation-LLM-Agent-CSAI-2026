@@ -1,0 +1,3175 @@
+{
+  "D1_e_response_surface": [
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C01",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C01",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C01",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C01",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C01",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C01",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C02",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C02",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C02",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C02",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C02",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C02",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 0.0,
+      "probe_id": "P-C03",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 0.5,
+      "probe_id": "P-C03",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 0.5,
+      "probe_id": "P-C03",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 0.0,
+      "probe_id": "P-C03",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 0.0,
+      "probe_id": "P-C03",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 0.0,
+      "probe_id": "P-C03",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C04",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C04",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C04",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C04",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C04",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C04",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C05",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C05",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "P-C05",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C05",
+      "rendered_z": -0.545,
+      "state": "negative"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C05",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "P",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "P-C05",
+      "rendered_z": 0.716,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C01",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C01",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C01",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C01",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C01",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C01",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 0.0,
+      "probe_id": "A-C02",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 0.5,
+      "probe_id": "A-C02",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C02",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 0.5,
+      "probe_id": "A-C02",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 0.5,
+      "probe_id": "A-C02",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 0.5,
+      "probe_id": "A-C02",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 0.0,
+      "probe_id": "A-C03",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C03",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C03",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C03",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C03",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C03",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C04",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C04",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C04",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C04",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C04",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "A-C04",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 0.0,
+      "probe_id": "A-C05",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C05",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "A-C05",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 0.5,
+      "probe_id": "A-C05",
+      "rendered_z": -0.62,
+      "state": "negative"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 0.5,
+      "probe_id": "A-C05",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "A",
+      "block": "placebo",
+      "cs": 0.5,
+      "probe_id": "A-C05",
+      "rendered_z": 0.53,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C01",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C01",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C01",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C01",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C01",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C01",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 0.5,
+      "probe_id": "D-C02",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C02",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C02",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C02",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C02",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C02",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 0.5,
+      "probe_id": "D-C03",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C03",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C03",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C03",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C03",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C03",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C04",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C04",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C04",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C04",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C04",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C04",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C05",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C05",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "affect",
+      "cs": 1.0,
+      "probe_id": "D-C05",
+      "rendered_z": 0.468,
+      "state": "positive"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C05",
+      "rendered_z": -0.521,
+      "state": "negative"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C05",
+      "rendered_z": 0.0,
+      "state": "origin"
+    },
+    {
+      "axis": "D",
+      "block": "placebo",
+      "cs": 1.0,
+      "probe_id": "D-C05",
+      "rendered_z": 0.468,
+      "state": "positive"
+    }
+  ],
+  "D2_saturation_census": {
+    "by_axis": {
+      "A": {
+        "n_incomplete": 0,
+        "n_informative": 3,
+        "n_items": 5,
+        "n_saturated": 2
+      },
+      "D": {
+        "n_incomplete": 0,
+        "n_informative": 2,
+        "n_items": 5,
+        "n_saturated": 3
+      },
+      "P": {
+        "n_incomplete": 0,
+        "n_informative": 1,
+        "n_items": 5,
+        "n_saturated": 4
+      }
+    },
+    "counts_partition_all_items": true,
+    "incomplete_probe_ids": [],
+    "informative_item_mean_effect": 0.6693881172944686,
+    "informative_probe_ids": [
+      "P-C03",
+      "A-C02",
+      "A-C03",
+      "A-C05",
+      "D-C02",
+      "D-C03"
+    ],
+    "items": [
+      {
+        "at_ceiling": true,
+        "axis": "P",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "P-C01",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "P",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "P-C02",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": false,
+        "axis": "P",
+        "cells_complete": true,
+        "constant_across_all_six_cells": false,
+        "constant_value": null,
+        "e_dj": 0.3965107057890563,
+        "n_cells_present": 6,
+        "probe_id": "P-C03",
+        "status": "informative"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "P",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "P-C04",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "P",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "P-C05",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "A",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "A-C01",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": false,
+        "axis": "A",
+        "cells_complete": true,
+        "constant_across_all_six_cells": false,
+        "constant_value": null,
+        "e_dj": 0.8695652173913044,
+        "n_cells_present": 6,
+        "probe_id": "A-C02",
+        "status": "informative"
+      },
+      {
+        "at_ceiling": false,
+        "axis": "A",
+        "cells_complete": true,
+        "constant_across_all_six_cells": false,
+        "constant_value": null,
+        "e_dj": 0.8695652173913044,
+        "n_cells_present": 6,
+        "probe_id": "A-C03",
+        "status": "informative"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "A",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "A-C04",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": false,
+        "axis": "A",
+        "cells_complete": true,
+        "constant_across_all_six_cells": false,
+        "constant_value": null,
+        "e_dj": 0.8695652173913044,
+        "n_cells_present": 6,
+        "probe_id": "A-C05",
+        "status": "informative"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "D",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "D-C01",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": false,
+        "axis": "D",
+        "cells_complete": true,
+        "constant_across_all_six_cells": false,
+        "constant_value": null,
+        "e_dj": 0.505561172901921,
+        "n_cells_present": 6,
+        "probe_id": "D-C02",
+        "status": "informative"
+      },
+      {
+        "at_ceiling": false,
+        "axis": "D",
+        "cells_complete": true,
+        "constant_across_all_six_cells": false,
+        "constant_value": null,
+        "e_dj": 0.505561172901921,
+        "n_cells_present": 6,
+        "probe_id": "D-C03",
+        "status": "informative"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "D",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "D-C04",
+        "status": "saturated"
+      },
+      {
+        "at_ceiling": true,
+        "axis": "D",
+        "cells_complete": true,
+        "constant_across_all_six_cells": true,
+        "constant_value": 1.0,
+        "e_dj": 0.0,
+        "n_cells_present": 6,
+        "probe_id": "D-C05",
+        "status": "saturated"
+      }
+    ],
+    "n_incomplete": 0,
+    "n_informative": 6,
+    "n_informative_negative": 0,
+    "n_informative_positive": 6,
+    "n_items": 15,
+    "n_saturated": 9,
+    "n_saturated_at_ceiling": 9,
+    "saturated_items_with_nonzero_effect": [],
+    "saturated_probe_ids": [
+      "P-C01",
+      "P-C02",
+      "P-C04",
+      "P-C05",
+      "A-C01",
+      "A-C04",
+      "D-C01",
+      "D-C04",
+      "D-C05"
+    ]
+  },
+  "D3_origin_split_slopes": {
+    "affect_half_slope_ratio_lower_over_upper": 7.281219556945092,
+    "by_block": {
+      "affect": {
+        "by_axis": {
+          "A": {
+            "mean_lower_contribution": 0.4347826086956522,
+            "mean_lower_half_slope": 0.8064516129032258,
+            "mean_upper_contribution": 0.08695652173913045,
+            "mean_upper_half_slope": 0.18867924528301885
+          },
+          "D": {
+            "mean_lower_contribution": 0.20222446916076842,
+            "mean_lower_half_slope": 0.3838771593090211,
+            "mean_upper_contribution": 0.0,
+            "mean_upper_half_slope": 0.0
+          },
+          "P": {
+            "mean_lower_contribution": 0.07930214115781126,
+            "mean_lower_half_slope": 0.18348623853211007,
+            "mean_upper_contribution": 0.0,
+            "mean_upper_half_slope": 0.0
+          }
+        },
+        "mean_lower_contribution": 0.23876973967141063,
+        "mean_lower_half_slope": 0.45793833691478564,
+        "mean_upper_contribution": 0.028985507246376815,
+        "mean_upper_half_slope": 0.06289308176100629,
+        "n_items_used": 15
+      },
+      "placebo": {
+        "by_axis": {
+          "A": {
+            "mean_lower_contribution": 0.0,
+            "mean_lower_half_slope": 0.0,
+            "mean_upper_contribution": 0.0,
+            "mean_upper_half_slope": 0.0
+          },
+          "D": {
+            "mean_lower_contribution": 0.0,
+            "mean_lower_half_slope": 0.0,
+            "mean_upper_contribution": 0.0,
+            "mean_upper_half_slope": 0.0
+          },
+          "P": {
+            "mean_lower_contribution": 0.0,
+            "mean_lower_half_slope": 0.0,
+            "mean_upper_contribution": 0.0,
+            "mean_upper_half_slope": 0.0
+          }
+        },
+        "mean_lower_contribution": 0.0,
+        "mean_lower_half_slope": 0.0,
+        "mean_upper_contribution": 0.0,
+        "mean_upper_half_slope": 0.0,
+        "n_items_used": 15
+      }
+    },
+    "note": "share_lower is a share of theta_E only when share_basis is 'theta_E'; otherwise the halves cover a subset of items and do not sum to theta_E. The half slopes are local slopes over unequal intervals, so their ratio is a different quantity from the contribution share.",
+    "origin_headroom": {
+      "block": "affect",
+      "by_axis": {
+        "A": {
+          "n_at_ceiling_at_origin": 4,
+          "n_with_headroom": 1
+        },
+        "D": {
+          "n_at_ceiling_at_origin": 5,
+          "n_with_headroom": 0
+        },
+        "P": {
+          "n_at_ceiling_at_origin": 4,
+          "n_with_headroom": 1
+        }
+      },
+      "n_at_ceiling_at_origin": 13,
+      "n_items": 15,
+      "n_with_headroom": 2,
+      "n_with_headroom_that_moved_up": 1,
+      "note": "An upper-half effect is only measurable for items with headroom. n_with_headroom bounds how much of the upper half could ever have been seen.",
+      "per_item": [
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "P",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "P-C01"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "P",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "P-C02"
+        },
+        {
+          "at_ceiling_at_origin": false,
+          "axis": "P",
+          "cs_origin": 0.5,
+          "cs_positive": 0.5,
+          "has_headroom": true,
+          "moved_up": false,
+          "probe_id": "P-C03"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "P",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "P-C04"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "P",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "P-C05"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "A",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "A-C01"
+        },
+        {
+          "at_ceiling_at_origin": false,
+          "axis": "A",
+          "cs_origin": 0.5,
+          "cs_positive": 1.0,
+          "has_headroom": true,
+          "moved_up": true,
+          "probe_id": "A-C02"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "A",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "A-C03"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "A",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "A-C04"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "A",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "A-C05"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "D",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "D-C01"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "D",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "D-C02"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "D",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "D-C03"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "D",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "D-C04"
+        },
+        {
+          "at_ceiling_at_origin": true,
+          "axis": "D",
+          "cs_origin": 1.0,
+          "cs_positive": 1.0,
+          "has_headroom": false,
+          "moved_up": false,
+          "probe_id": "D-C05"
+        }
+      ],
+      "probe_ids_with_headroom": [
+        "P-C03",
+        "A-C02"
+      ],
+      "probe_ids_with_headroom_that_moved_up": [
+        "A-C02"
+      ]
+    },
+    "per_item": [
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "P",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "P-C01",
+        "span": 1.2610000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "P",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "P-C02",
+        "span": 1.2610000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.3965107057890563,
+          "lower_half_slope": 0.9174311926605504,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "P",
+        "e_lower": 0.3965107057890563,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "P-C03",
+        "span": 1.2610000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "P",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "P-C04",
+        "span": 1.2610000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "P",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "P-C05",
+        "span": 1.2610000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "A",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "A-C01",
+        "span": 1.15
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.4347826086956522,
+          "lower_half_slope": 0.8064516129032259,
+          "upper_contribution": 0.4347826086956522,
+          "upper_half_slope": 0.9433962264150942
+        },
+        "axis": "A",
+        "e_lower": 0.4347826086956522,
+        "e_upper": 0.4347826086956522,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "A-C02",
+        "span": 1.15
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.8695652173913044,
+          "lower_half_slope": 1.6129032258064517,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "A",
+        "e_lower": 0.8695652173913044,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "A-C03",
+        "span": 1.15
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "A",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "A-C04",
+        "span": 1.15
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.8695652173913044,
+          "lower_half_slope": 1.6129032258064517,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "A",
+        "e_lower": 0.8695652173913044,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "A-C05",
+        "span": 1.15
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "D",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "D-C01",
+        "span": 0.9890000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.505561172901921,
+          "lower_half_slope": 0.9596928982725528,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "D",
+        "e_lower": 0.505561172901921,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "D-C02",
+        "span": 0.9890000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.505561172901921,
+          "lower_half_slope": 0.9596928982725528,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "D",
+        "e_lower": 0.505561172901921,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "D-C03",
+        "span": 0.9890000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "D",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "D-C04",
+        "span": 0.9890000000000001
+      },
+      {
+        "affect": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "axis": "D",
+        "e_lower": 0.0,
+        "e_upper": 0.0,
+        "placebo": {
+          "lower_contribution": 0.0,
+          "lower_half_slope": 0.0,
+          "upper_contribution": 0.0,
+          "upper_half_slope": 0.0
+        },
+        "probe_id": "D-C05",
+        "span": 0.9890000000000001
+      }
+    ],
+    "placebo_slope_identically_zero": true,
+    "theta_E_split": {
+      "covers_all_items": true,
+      "lower_half": 0.23876973967141063,
+      "n_items": 15,
+      "n_items_covered": 15,
+      "reconstructs_theta_E": true,
+      "share_basis": "theta_E",
+      "share_lower": 0.8917462586446471,
+      "share_upper": 0.1082537413553529,
+      "sum": 0.26775524691778746,
+      "uncovered_probe_ids": [],
+      "upper_half": 0.028985507246376815
+    }
+  },
+  "D4_n_direction_decomposition": {
+    "contributions_sum": 0.10416666666666666,
+    "directions_with_zero_contribution": [
+      "P+",
+      "P-",
+      "D+"
+    ],
+    "n_replay_probes": 9,
+    "n_replay_probes_saturated_in_E": 6,
+    "n_units": 144,
+    "per_direction": [
+      {
+        "axis": "P",
+        "contribution_to_theta_N": 0.0,
+        "direction": "P+",
+        "mean_cs_full": 1.0,
+        "mean_cs_zero": 1.0,
+        "mean_signed_contrast": 0.0,
+        "n_cells": 24,
+        "n_seeds_present": 8,
+        "share_of_theta_N": 0.0,
+        "sign": 1
+      },
+      {
+        "axis": "P",
+        "contribution_to_theta_N": 0.0,
+        "direction": "P-",
+        "mean_cs_full": 1.0,
+        "mean_cs_zero": 1.0,
+        "mean_signed_contrast": 0.0,
+        "n_cells": 24,
+        "n_seeds_present": 8,
+        "share_of_theta_N": 0.0,
+        "sign": -1
+      },
+      {
+        "axis": "A",
+        "contribution_to_theta_N": 0.010416666666666666,
+        "direction": "A+",
+        "mean_cs_full": 1.0,
+        "mean_cs_zero": 0.9375,
+        "mean_signed_contrast": 0.0625,
+        "n_cells": 24,
+        "n_seeds_present": 8,
+        "share_of_theta_N": 0.1,
+        "sign": 1
+      },
+      {
+        "axis": "A",
+        "contribution_to_theta_N": 0.07638888888888888,
+        "direction": "A-",
+        "mean_cs_full": 0.41666666666666663,
+        "mean_cs_zero": 0.875,
+        "mean_signed_contrast": 0.4583333333333333,
+        "n_cells": 24,
+        "n_seeds_present": 8,
+        "share_of_theta_N": 0.7333333333333333,
+        "sign": -1
+      },
+      {
+        "axis": "D",
+        "contribution_to_theta_N": 0.0,
+        "direction": "D+",
+        "mean_cs_full": 0.8333333333333334,
+        "mean_cs_zero": 0.8333333333333334,
+        "mean_signed_contrast": 0.0,
+        "n_cells": 24,
+        "n_seeds_present": 8,
+        "share_of_theta_N": 0.0,
+        "sign": 1
+      },
+      {
+        "axis": "D",
+        "contribution_to_theta_N": 0.017361111111111112,
+        "direction": "D-",
+        "mean_cs_full": 0.8333333333333334,
+        "mean_cs_zero": 0.9375,
+        "mean_signed_contrast": 0.10416666666666666,
+        "n_cells": 24,
+        "n_seeds_present": 8,
+        "share_of_theta_N": 0.16666666666666669,
+        "sign": -1
+      }
+    ],
+    "replay_probe_saturation": [
+      {
+        "axis": "P",
+        "probe_id": "P-C01",
+        "saturated_in_E": true
+      },
+      {
+        "axis": "P",
+        "probe_id": "P-C02",
+        "saturated_in_E": true
+      },
+      {
+        "axis": "P",
+        "probe_id": "P-C05",
+        "saturated_in_E": true
+      },
+      {
+        "axis": "A",
+        "probe_id": "A-C02",
+        "saturated_in_E": false
+      },
+      {
+        "axis": "A",
+        "probe_id": "A-C03",
+        "saturated_in_E": false
+      },
+      {
+        "axis": "A",
+        "probe_id": "A-C04",
+        "saturated_in_E": true
+      },
+      {
+        "axis": "D",
+        "probe_id": "D-C03",
+        "saturated_in_E": false
+      },
+      {
+        "axis": "D",
+        "probe_id": "D-C04",
+        "saturated_in_E": true
+      },
+      {
+        "axis": "D",
+        "probe_id": "D-C05",
+        "saturated_in_E": true
+      }
+    ],
+    "replay_saturation_by_axis": {
+      "A": {
+        "n_probes": 3,
+        "n_saturated": 1
+      },
+      "D": {
+        "n_probes": 3,
+        "n_saturated": 2
+      },
+      "P": {
+        "n_probes": 3,
+        "n_saturated": 3
+      }
+    },
+    "seed_unit_counts": {
+      "1": 18,
+      "13": 18,
+      "14": 18,
+      "18": 18,
+      "22": 18,
+      "24": 18,
+      "26": 18,
+      "5": 18
+    },
+    "seed_weighting": "seed-equal, matching theta_N = mean_k N_k",
+    "theta_N_by_dim_recomputed": {
+      "A": 0.2604166666666667,
+      "D": 0.05208333333333333,
+      "P": 0.0
+    },
+    "theta_N_recomputed": 0.10416666666666666
+  },
+  "D5_n_normalized_sensitivity": {
+    "N_k_normalized": {
+      "1": 0.2845452469408746,
+      "13": 0.13419216317767044,
+      "14": 0.18752098795890815,
+      "18": 0.13419216317767044,
+      "22": 0.18720318947113945,
+      "24": 0.23939834791102785,
+      "26": 0.04480286738351255,
+      "5": 0.19508647725985598
+    },
+    "abs_z_target_max": 0.717,
+    "abs_z_target_min": 0.467,
+    "all_seed_means_positive": true,
+    "comparable_to_MES_N": false,
+    "n_skipped": 0,
+    "n_units": 144,
+    "note": "Protocol 4.2 dose-normalized sensitivity. Reported in CS per rendered-z, whereas theta_N and MES_N are in direction-corrected CS. It does not replace the primary theta_N and must not be compared against MES_N.",
+    "seed_weighting": "seed-equal, matching the primary theta_N aggregation",
+    "theta_N_normalized": 0.17586768041008244,
+    "theta_N_normalized_by_dim": {
+      "A": 0.4280551820261537,
+      "D": 0.09954785920409358,
+      "P": 0.0
+    },
+    "unit": "direction-corrected CS per rendered-z; a dose-normalized sensitivity that is NOT comparable to MES_N",
+    "units": [
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.717,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.717,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.717,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.716,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.717,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C01",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.717,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C05",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.717,
+        "axis": "P",
+        "direction": "P+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "P-C02",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.548,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.548,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.548,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.547,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.548,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.548,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.548,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C01",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C05",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.546,
+        "axis": "P",
+        "direction": "P-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "P-C02",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.531,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.531,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.531,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C02",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.53,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.53,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.53,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9433962264150942,
+        "probe_id": "A-C02",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.53,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.53,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.53,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9433962264150942,
+        "probe_id": "A-C02",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.531,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.531,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.531,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C02",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C02",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C02",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.529,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9451795841209829,
+        "probe_id": "A-C02",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.532,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C04",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.532,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C03",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.532,
+        "axis": "A",
+        "direction": "A+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "A-C02",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.62,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C04",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.62,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 1.0,
+        "n_hj_normalized": 1.6129032258064517,
+        "probe_id": "A-C03",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.62,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8064516129032259,
+        "probe_id": "A-C02",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.622,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C04",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.622,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 1.0,
+        "n_hj_normalized": 1.607717041800643,
+        "probe_id": "A-C03",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.622,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8038585209003215,
+        "probe_id": "A-C02",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C04",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C03",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C02",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C04",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 1.0,
+        "n_hj_normalized": 1.6103059581320451,
+        "probe_id": "A-C03",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C02",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C04",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 1.0,
+        "n_hj_normalized": 1.6103059581320451,
+        "probe_id": "A-C03",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C02",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C04",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 1.0,
+        "n_hj_normalized": 1.6103059581320451,
+        "probe_id": "A-C03",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C02",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C04",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 1.0,
+        "n_hj_normalized": 1.6103059581320451,
+        "probe_id": "A-C03",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.621,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8051529790660226,
+        "probe_id": "A-C02",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.62,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C04",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.62,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.8064516129032259,
+        "probe_id": "A-C03",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.62,
+        "axis": "A",
+        "direction": "A-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "A-C02",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C05",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C04",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.467,
+        "axis": "D",
+        "direction": "D+",
+        "n_hj": 0.0,
+        "n_hj_normalized": 0.0,
+        "probe_id": "D-C03",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.523,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.523,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.523,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9560229445506692,
+        "probe_id": "D-C03",
+        "seed": 14
+      },
+      {
+        "abs_z_target": 0.524,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.524,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.524,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9541984732824427,
+        "probe_id": "D-C03",
+        "seed": 24
+      },
+      {
+        "abs_z_target": 0.522,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.522,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.522,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9578544061302682,
+        "probe_id": "D-C03",
+        "seed": 5
+      },
+      {
+        "abs_z_target": 0.521,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.521,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.521,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C03",
+        "seed": 18
+      },
+      {
+        "abs_z_target": 0.524,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.524,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.524,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9541984732824427,
+        "probe_id": "D-C03",
+        "seed": 22
+      },
+      {
+        "abs_z_target": 0.521,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.521,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.521,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C03",
+        "seed": 13
+      },
+      {
+        "abs_z_target": 0.523,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.523,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.523,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": 0.5,
+        "n_hj_normalized": 0.9560229445506692,
+        "probe_id": "D-C03",
+        "seed": 1
+      },
+      {
+        "abs_z_target": 0.522,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C05",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.522,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C04",
+        "seed": 26
+      },
+      {
+        "abs_z_target": 0.522,
+        "axis": "D",
+        "direction": "D-",
+        "n_hj": -0.0,
+        "n_hj_normalized": -0.0,
+        "probe_id": "D-C03",
+        "seed": 26
+      }
+    ]
+  },
+  "D6_pvalue_floor_census": {
+    "holm_axis_analysis": {
+      "best_attainable_axis_p": 0.03125,
+      "holm_first_threshold": 0.016666666666666666,
+      "items_per_axis": 5,
+      "note": "With this many items per axis no possible outcome can clear the first Holm step.",
+      "rejection_attainable": false
+    },
+    "sign_flip_holds_exact_zeros_fixed": true,
+    "tests": [
+      {
+        "attainable_floor_p": 0.015625,
+        "can_reach_alpha": true,
+        "min_nonzero_units_for_alpha": 5,
+        "n_nonzero_units": 6,
+        "n_units": 15,
+        "observed_equals_floor": true,
+        "observed_p": 0.015625,
+        "test": "E_overall"
+      },
+      {
+        "attainable_floor_p": 0.00390625,
+        "can_reach_alpha": true,
+        "min_nonzero_units_for_alpha": 5,
+        "n_nonzero_units": 8,
+        "n_units": 8,
+        "observed_equals_floor": true,
+        "observed_p": 0.00390625,
+        "test": "N_overall"
+      },
+      {
+        "attainable_floor_p": 0.5,
+        "can_reach_alpha": false,
+        "min_nonzero_units_for_alpha": 5,
+        "n_nonzero_units": 1,
+        "n_units": 5,
+        "observed_equals_floor": true,
+        "observed_p": 0.5,
+        "test": "E_axis_P"
+      },
+      {
+        "attainable_floor_p": 0.125,
+        "can_reach_alpha": false,
+        "min_nonzero_units_for_alpha": 5,
+        "n_nonzero_units": 3,
+        "n_units": 5,
+        "observed_equals_floor": true,
+        "observed_p": 0.125,
+        "test": "E_axis_A"
+      },
+      {
+        "attainable_floor_p": 0.25,
+        "can_reach_alpha": false,
+        "min_nonzero_units_for_alpha": 5,
+        "n_nonzero_units": 2,
+        "n_units": 5,
+        "observed_equals_floor": true,
+        "observed_p": 0.25,
+        "test": "E_axis_D"
+      }
+    ]
+  },
+  "D7_determinism_census": {
+    "all_rows_parse_to_a_choice": true,
+    "completion_token_spread_note": "unresolved: the raw text is not retained, so a differing response and provider-side usage accounting are equally consistent with these spreads. This is not evidence of either.",
+    "completion_token_spreads": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "decoding_flags": [
+      "thinking=False,tools=off,search=off"
+    ],
+    "distinct_raw_response_values": [
+      "{\"choice\":\"A\"}",
+      "{\"choice\":\"B\"}"
+    ],
+    "formal_conditions_with_repeats": 0,
+    "gate_error": null,
+    "gate_implementation": "sprint.runner.assert_stability_gate (the same check the runner applied before formal collection)",
+    "gate_pass": true,
+    "max_completion_token_spread": 1,
+    "n_errors": 0,
+    "n_payloads": 12,
+    "n_payloads_with_identical_choice": 12,
+    "n_payloads_with_identical_completion_tokens": 8,
+    "n_payloads_with_identical_prompt_tokens": 12,
+    "n_payloads_with_varying_completion_tokens": 4,
+    "n_rows": 36,
+    "raw_response_is_reconstructed": true,
+    "raw_response_note": "provider_qwen.complete_choice stores f'{\"choice\":\"<c>\"}', not the provider's text. Response-text identity across repeats is therefore NOT verifiable from this ledger.",
+    "repeats_per_payload": [
+      3
+    ],
+    "requested_models": [
+      "qwen3.7-flash-2026-07-15"
+    ],
+    "returned_models": [
+      "qwen3.7-flash-2026-07-15"
+    ],
+    "scope": "development probes at checkpoint 0; establishes repeat-stability of the extracted choice for those payloads only. The 756 formal observations were each collected once, so their within-condition variance is unestimated.",
+    "temperatures": [
+      0
+    ],
+    "total_retries": 0,
+    "within_condition_variance_estimated": false
+  },
+  "D8_dev_probe_headroom": {
+    "admissible_use": "existence only, and only as a post-hoc exploratory observation: probes with headroom are reachable by the same authoring process that produced the formal set",
+    "dev_probe_ids": [
+      "A-D02",
+      "D-D02",
+      "P-D02"
+    ],
+    "development": {
+      "distinct_values": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "n_at_ceiling": 6,
+      "n_at_floor": 7,
+      "n_cells": 18,
+      "n_intermediate": 5
+    },
+    "formal_E_for_contrast": {
+      "distinct_values": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "n_at_ceiling": 72,
+      "n_at_floor": 7,
+      "n_cells": 90,
+      "n_intermediate": 11
+    },
+    "inadmissible_uses": [
+      "reporting this as a pre-registered or confirmatory result",
+      "attributing the formal ceiling to probe selection rather than to the model, the renderer, or the forced-choice format",
+      "any claim about forced-choice probing in general",
+      "any statement about the size or sign of the affect contrast"
+    ],
+    "isolation_check": {
+      "covers": "all formal CS cells; both E and N estimand sets; both primary gate objects (including discordance, pair completeness, invalid-JSON counts and p-values); and missing-data sensitivity. Bootstrap intervals are deterministic functions of the same CS cells and therefore move with them.",
+      "formal_fingerprint_after_flip": "e9af950b020952430ea6bfd7c9f67a96a4d90438fe1225247c107eb4463db84e",
+      "formal_fingerprint_before": "e9af950b020952430ea6bfd7c9f67a96a4d90438fe1225247c107eb4463db84e",
+      "formal_fingerprint_without_dev_rows": "e9af950b020952430ea6bfd7c9f67a96a4d90438fe1225247c107eb4463db84e",
+      "formal_output_unchanged": true,
+      "n_development_rows_perturbed": 80,
+      "n_formal_rows_untouched": 756
+    },
+    "note": "Protocol 927 forbids development data from substituting for formal results. Three probes cannot establish an effect and are not used for one.",
+    "per_probe": {
+      "A-D02": {
+        "affect": {
+          "A+": 1.0,
+          "A-": 0.0,
+          "ORIGIN": 1.0
+        },
+        "placebo": {
+          "A+": 1.0,
+          "A-": 1.0,
+          "ORIGIN": 1.0
+        }
+      },
+      "D-D02": {
+        "affect": {
+          "D+": 0.5,
+          "D-": 0.5,
+          "ORIGIN": 0.5
+        },
+        "placebo": {
+          "D+": 1.0,
+          "D-": 0.5,
+          "ORIGIN": 0.5
+        }
+      },
+      "P-D02": {
+        "affect": {
+          "ORIGIN": 0.0,
+          "P+": 0.0,
+          "P-": 0.0
+        },
+        "placebo": {
+          "ORIGIN": 0.0,
+          "P+": 0.0,
+          "P-": 0.0
+        }
+      }
+    },
+    "pre_registered": false,
+    "status": "post-hoc exploratory diagnostic"
+  },
+  "provenance": {
+    "analysis_code_hash": "3f4b63f49fdedba1e49c98ffcf41cd370d2f87fb72604086c18248c41c6eb9ed",
+    "diagnostics_code_hash": "d94b3031d2e01cf0daf8ab99673d4e390ce48c00ea912899ce8027e0b4eb162a",
+    "formal_record_count": 756,
+    "ledger_record_count": 836,
+    "raw_sha256": "13c9588a802a4980a75fdb27d1d71b61e3010fe7fd9c19cb54ceeaf8dff4ca87",
+    "source": "tools/diagnostics.py (outside ANALYSIS_HASH_PATHS)"
+  },
+  "units": {
+    "contribution": "CS per rendered-z over the full axis span; the lower and upper contributions sum exactly to e_dj and to theta_E",
+    "e_dj": "CS per rendered-z (Experiment E; same unit as MES_E)",
+    "half_slope": "CS per rendered-z measured within one half-interval; a local slope, NOT an additive share of theta_E",
+    "n_hj": "direction-corrected CS (Experiment N; same unit as MES_N)",
+    "n_hj_normalized": "direction-corrected CS per rendered-z; a dose-normalized sensitivity that is NOT comparable to MES_N"
+  }
+}
