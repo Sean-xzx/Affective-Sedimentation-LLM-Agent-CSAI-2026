@@ -1,12 +1,25 @@
 # LLM 智能体的情感沉积
 
-[English](README.md) · [复现细节](docs/REPRODUCIBILITY.md) · [架构说明](docs/ARCHITECTURE.md)
+[English](README.md) · **[论文 PDF](paper/main.pdf)** · [复现细节](docs/REPRODUCIBILITY.md) · [架构说明](docs/ARCHITECTURE.md)
 
-一个受控研究试验：检验外部计算、由交互历史驱动的情感状态元数据，是否会改变 LLM 智能体的强制选择。
+> **本研究已被 CSAI 2026 接收，尚未发表。**
+> [阅读仓库内的论文稿件（PDF）](paper/main.pdf)。此链接指向仓库文件，不是出版平台的发表页面。
 
-本仓库保存已完成的 CSAI 2026 实验，包括三层数值控制器、确定性事件历史、固定提示和行为探针、支持恢复日志的 Qwen 接口，以及已采集观测的可复现分析。适合了解基本开发流程、希望研究智能体状态接口和实验复现的开发者。
+**累积的交互历史，能否通过显式的情感状态接口影响 LLM 智能体的选择？** 本项目使用三层数值控制器和受控行为对照，研究这一问题。
 
-## 范围与已记录结果
+论文：**Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent** — Zexian Xiong 与 Yan Li。
+
+## 研究重点
+
+- **核心机制**：交互事件更新快、中、慢三层 P/A/D 状态。控制器在 LLM 外计算状态，再把状态和事件记忆写入提示。
+- **受控对照**：实验 E 比较情感标签与数字相同的传感器元数据；实验 N 保持事件记忆相同，比较历史生成状态与归零状态。
+- **已记录证据**：保存了 756 条正式观测和 80 条开发及稳定性观测，以及对应代码、清单和分析。冻结集合上的两组主门均通过；E 的三个单轴检验均未通过 Holm 校正。
+
+仓库提供控制器、确定性历史、固定探针、Qwen 接口和已记录结果分析，面向研究智能体状态接口及实验复现的开发者。首次运行使用模拟响应，无需 API 密钥、GPU 或付费模型调用。
+
+**从这里开始**：[阅读论文](paper/main.pdf)了解研究，按[快速开始](#快速开始)运行演示并复现结果，或查看[架构说明](docs/ARCHITECTURE.md)理解模块关系。
+
+## 已记录结果
 
 控制器在模型外更新快、中、慢三层 P/A/D 状态。实验 E 比较带情感含义的端点和数字相同的传感器元数据；实验 N 保持事件记忆相同，比较历史生成状态与归零状态。解释顺序固定为 D（数值检查）、E、N。
 
@@ -132,4 +145,4 @@ docs/                    架构、来源、资源与验证说明
 
 工程化评价映射将非中性 OCC-to-PAD 数值归因于 Gebhard 和 Kipp（2006）Table 2；方法与相关工作出处见 [refs.bib](paper/refs.bib)和[证据表](paper/LITERATURE_EVIDENCE.md)。仓库不分发第三方论文 PDF 或模型权重；附带参考文献样式在文件头声明为 public domain。
 
-引用本实验时，请引用 Zexian Xiong 与 Yan Li 的论文 **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent**，并注明所用仓库提交。本说明不声称论文已被会议接收或拥有发表 DOI。
+引用本实验时，请引用 Zexian Xiong 与 Yan Li 的论文 **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent**，并注明所用仓库提交。作者已确认论文被 CSAI 2026 接收，尚未发表。上方提供[仓库论文稿件 PDF](paper/main.pdf)，不声明发表 DOI。

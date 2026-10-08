@@ -1,12 +1,25 @@
 # Affective Sedimentation for LLM Agents
 
-[简体中文](README.zh-CN.md) · [Reproduction details](docs/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md)
+[简体中文](README.zh-CN.md) · **[Paper PDF](paper/main.pdf)** · [Reproduction details](docs/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md)
 
-A controlled research pilot that tests whether externally computed, history-driven affect-state metadata changes an LLM agent's forced choices.
+> **Accepted at CSAI 2026 — not yet published.**
+> [Read the repository manuscript (PDF)](paper/main.pdf). This links to the file in this repository, not a publisher page.
 
-This repository preserves the completed CSAI 2026 experiment. It provides a three-layer numerical controller, deterministic event histories, fixed prompts and behavioral probes, a Qwen adapter with resumable logging, and reproducible analysis of the recorded observations. It is intended for developers exploring controlled agent-state interfaces and experimental reproducibility.
+**Can accumulated interaction history influence an LLM agent's choices through an explicit affect-state interface?** This project investigates that question with a three-layer numerical controller and controlled behavioral comparisons.
 
-## Scope and recorded results
+Paper: **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent** — Zexian Xiong and Yan Li.
+
+## Research at a glance
+
+- **Mechanism:** interaction events update fast, medium and slow P/A/D states. The controller computes these states outside the LLM, then supplies the resulting state and event memory in its prompt.
+- **Controlled comparisons:** Experiment E tests affect labels against numerically identical sensor metadata. Experiment N tests history-derived state against zero state while holding event memory fixed.
+- **Recorded evidence:** 756 formal observations and 80 development/stability observations are preserved with the code, manifests and analyses. Both primary gate suites pass on the frozen grid; none of the E axis-wise tests passes Holm correction.
+
+The repository provides the controller, deterministic histories, fixed probes, Qwen adapter and recorded-result analysis. It is intended for developers studying agent-state interfaces and reproducible experiments. The first run uses a mock provider and requires no API key, GPU or paid model requests.
+
+**Start here:** [read the paper](paper/main.pdf) for the research, follow [Quick start](#quick-start) for the demo and result reproduction, or read [Architecture](docs/ARCHITECTURE.md) for the module relationships.
+
+## Recorded results
 
 The controller updates fast, medium and slow P/A/D states outside the model. Experiment E compares affect-labeled endpoints with numerically identical sensor metadata. Experiment N compares history-derived state with zero state while keeping event memory identical. The interpretive order is D (numerical checks), E, then N.
 
@@ -132,4 +145,4 @@ Project code is available under the [MIT License](LICENSE). The author has autho
 
 The engineered appraisal map attributes non-neutral OCC-to-PAD values to Gebhard and Kipp (2006), Table 2; methodological and related-work references are in [refs.bib](paper/refs.bib) and the [evidence table](paper/LITERATURE_EVIDENCE.md). The repository distributes no third-party paper PDFs or model weights. The bundled bibliography style declares public-domain status in its header.
 
-When referring to this experiment, cite the paper by Zexian Xiong and Yan Li, **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent**, and include the repository commit used. Conference acceptance or a publication DOI is not claimed here.
+When referring to this experiment, cite the paper by Zexian Xiong and Yan Li, **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Driven Behavioral Modulation in an LLM Agent**, and include the repository commit used. The authors confirm acceptance at CSAI 2026; the paper has not yet been published. The [repository manuscript PDF](paper/main.pdf) is available above. No publication DOI is asserted.
