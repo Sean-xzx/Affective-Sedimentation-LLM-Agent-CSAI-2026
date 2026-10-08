@@ -1,8 +1,9 @@
-# LLM 智能体的情感沉积
+# Affective-Sedimentation-LLM-Agent-CSAI-2026
 
 [English](README.md) · **[论文 PDF](paper/main.pdf)** · [复现细节](docs/REPRODUCIBILITY.md) · [架构说明](docs/ARCHITECTURE.md)
 
 > **本研究已被 CSAI 2026 接收，尚未发表。**
+> **保留所有权利。** 仅公开供查看，其他使用须事先取得书面许可；既有法律、平台及此前许可产生的权利不受本声明追溯撤销。详见[权利与许可说明](RIGHTS.md)。
 > [阅读仓库内的论文稿件（PDF）](paper/main.pdf)。此链接指向仓库文件，不是出版平台的发表页面。
 
 **累积的交互历史，能否通过显式的情感状态接口影响 LLM 智能体的选择？** 本项目使用三层数值控制器和受控行为对照，研究这一问题。
@@ -17,7 +18,7 @@
 
 仓库提供控制器、确定性历史、固定探针、Qwen 接口和已记录结果分析，面向研究智能体状态接口及实验复现的开发者。首次运行使用模拟响应，无需 API 密钥、GPU 或付费模型调用。
 
-**从这里开始**：[阅读论文](paper/main.pdf)了解研究，按[快速开始](#快速开始)运行演示并复现结果，或查看[架构说明](docs/ARCHITECTURE.md)理解模块关系。
+**从这里开始**：[阅读论文](paper/main.pdf)了解研究，取得许可后，按[快速开始](#快速开始)运行演示并复现结果，或查看[架构说明](docs/ARCHITECTURE.md)理解模块关系。
 
 ## 已记录结果
 
@@ -46,11 +47,13 @@
 
 ## 快速开始
 
-克隆仓库并进入根目录：
+**以下流程仅供权利人及已事先取得书面许可的使用者执行。** 命令用于记录作者的验证方法，提供操作说明不代表授予运行、复用或修改权限。继续前请阅读 [RIGHTS.md](RIGHTS.md)。
+
+取得许可后，克隆仓库并进入根目录：
 
 ```sh
-git clone https://github.com/Sean-xzx/affective-sedimentation-llm-agent.git
-cd affective-sedimentation-llm-agent
+git clone https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026.git
+cd Affective-Sedimentation-LLM-Agent-CSAI-2026
 python -m venv .venv
 ```
 
@@ -128,7 +131,7 @@ docs/                    架构、来源、资源与验证说明
 
 部分原有分析和制图命令会写入 `reports/`或 `paper/figures/`，请在可丢弃的克隆副本中试验。上述安全入口完成后，冻结科学文件的字节保持不变。原有回归测试会重建内容相同的结果文件，并生成两个被忽略的辅助 SVG；若要求原工作目录完全不发生写入，请使用可丢弃的克隆副本。Git 属性保留科学文件跨平台的字节，因为换行变化也可能使记录的哈希失效。
 
-欢迎通过 [Issues](https://github.com/Sean-xzx/affective-sedimentation-llm-agent/issues) 和 Pull Request 提交复现问题或改进。请附操作系统、Python 版本、命令及脱敏后的错误输出；不要包含 API 密钥、私人 `.env`或个人日志。保留科学常数、核心代码和已记录数据；新的科学设计应成为明确分离的实验，不应悄悄改变本版本。不承诺长期维护或托管服务可用性。
+可通过 [Issues](https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026/issues) 提问、申请许可或报告已获授权的复现问题。公开可查看不代表允许补丁、功能修改、衍生项目或重新分发；未经权利人事先书面许可，请勿提交代码修改。报告已授权运行的问题时，可附操作系统、Python 版本、命令及脱敏后的错误输出，不要包含凭据或私人日志。不承诺长期维护或托管服务可用性。
 
 ## 已知限制与常见问题
 
@@ -141,7 +144,7 @@ docs/                    架构、来源、资源与验证说明
 
 ## 使用条件、来源与引用
 
-项目代码采用 [MIT 许可证](LICENSE)。作者已允许公开实验日志及自有论文和图表；这些研究资源保留作者权利，不随代码自动更换许可证。具体范围和第三方条件见[资源来源说明](docs/RESOURCE_PROVENANCE.md)。
+**保留所有权利，本版本不提供开源许可证。** 项目自有代码、文档、研究材料、数据、论文文字及图表归各自权利人所有。除公开查看外，运行、复用、修改、重新分发、制作衍生作品及商业使用须事先取得书面许可；此前已授予的权利及法律或 GitHub 条款规定的权利除外。[权利与许可说明](RIGHTS.md)解释旧 MIT 版本的限制，[资源来源说明](docs/RESOURCE_PROVENANCE.md)列出第三方独立适用的条件。
 
 工程化评价映射将非中性 OCC-to-PAD 数值归因于 Gebhard 和 Kipp（2006）Table 2；方法与相关工作出处见 [refs.bib](paper/refs.bib)和[证据表](paper/LITERATURE_EVIDENCE.md)。仓库不分发第三方论文 PDF 或模型权重；附带参考文献样式在文件头声明为 public domain。
 

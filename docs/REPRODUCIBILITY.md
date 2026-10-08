@@ -1,5 +1,7 @@
 # Reproducibility contract
 
+These procedures document the authors' validation work. Only rights holders and users with prior written permission may execute or adapt them, subject to existing legal, platform and earlier-license rights. Public availability grants no independent execution or modification permission; see [RIGHTS.md](../RIGHTS.md).
+
 ## Three distinct levels
 
 1. **Functionality:** `python -m tools.reproduce demo` checks numerical assertions, one deterministic development history and two mocked runner observations. It uses no external service, writes no scientific data and is not evidence of a behavioral effect.
@@ -54,6 +56,6 @@ Font/package versions and PDF metadata can change bytes. Rebuilding the PDF is n
 
 `python -m tools.r7_gate --quick --no-write` is a separate paper-readiness check, not the scientific regression suite. Citation verification, image resolution, submission checkboxes and fresh TeX logs can prevent it passing. Historical reports do not certify the current submission. The bylined paper and some older anonymous-submission notes describe different versions; the current paper source is authoritative for its actual layout.
 
-## Updating the project
+## Permission and feedback
 
-Make publication-tool/documentation changes on a new branch, run the quick-start checks and open a pull request. Do not edit protected scientific inputs or recompute history manifests to conceal a mismatch. Preserve the baseline and propose a separate experiment for scientific changes. When reporting failures, include sanitized commands/output, Python version, OS and the public commit SHA.
+Only the rights holders and expressly authorized maintainers may modify project code or functionality. This documentation does not invite unlicensed patches, pull requests or derivative experiments. Obtain prior written permission before execution, reuse, modification or redistribution, subject to the exceptions in [RIGHTS.md](../RIGHTS.md). Preserve protected scientific inputs, code and artifacts even during an authorized documentation update. Use repository Issues for permission requests, questions and authorized-run reports; include only sanitized output, Python version, OS and the commit SHA.

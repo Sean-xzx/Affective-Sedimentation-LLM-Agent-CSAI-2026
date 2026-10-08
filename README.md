@@ -1,8 +1,9 @@
-# Affective Sedimentation for LLM Agents
+# Affective-Sedimentation-LLM-Agent-CSAI-2026
 
 [简体中文](README.zh-CN.md) · **[Paper PDF](paper/main.pdf)** · [Reproduction details](docs/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md)
 
 > **Accepted at CSAI 2026 — not yet published.**
+> **All rights reserved.** Public viewing only; other uses require prior written permission, subject to existing legal, platform and earlier-license rights. See [Rights and permissions](RIGHTS.md).
 > [Read the repository manuscript (PDF)](paper/main.pdf). This links to the file in this repository, not a publisher page.
 
 **Can accumulated interaction history influence an LLM agent's choices through an explicit affect-state interface?** This project investigates that question with a three-layer numerical controller and controlled behavioral comparisons.
@@ -17,7 +18,7 @@ Paper: **Affective Sedimentation: A Controlled Proof-of-Mechanism for History-Dr
 
 The repository provides the controller, deterministic histories, fixed probes, Qwen adapter and recorded-result analysis. It is intended for developers studying agent-state interfaces and reproducible experiments. The first run uses a mock provider and requires no API key, GPU or paid model requests.
 
-**Start here:** [read the paper](paper/main.pdf) for the research, follow [Quick start](#quick-start) for the demo and result reproduction, or read [Architecture](docs/ARCHITECTURE.md) for the module relationships.
+**Start here:** [read the paper](paper/main.pdf) for the research, use [Quick start](#quick-start) for the demo and result reproduction only after obtaining permission, or read [Architecture](docs/ARCHITECTURE.md) for the module relationships.
 
 ## Recorded results
 
@@ -46,11 +47,13 @@ Both recorded primary gate suites pass. None of the E axis-wise tests passes Hol
 
 ## Quick start
 
-Clone this repository and enter its root:
+**For the rights holders and users with prior written permission only.** These commands record the authors' validation procedure; providing them grants no permission to execute, reuse or modify the project. Read [RIGHTS.md](RIGHTS.md) before proceeding.
+
+Once authorized, clone this repository and enter its root:
 
 ```sh
-git clone https://github.com/Sean-xzx/affective-sedimentation-llm-agent.git
-cd affective-sedimentation-llm-agent
+git clone https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026.git
+cd Affective-Sedimentation-LLM-Agent-CSAI-2026
 python -m venv .venv
 ```
 
@@ -128,7 +131,7 @@ The action map feeds deterministic histories; `dynamics.py` computes slow state;
 
 Some legacy analysis/export commands write into `reports/` or `paper/figures/`. Use a disposable clone when experimenting with them. The safe commands above do not change frozen scientific bytes after completion. Original regression tests rebuild identical result files and create two ignored helper SVGs; use a disposable clone if you need a completely write-free checkout. Git attributes preserve scientific bytes across platforms, since even a line-ending change can invalidate a recorded hash.
 
-Contributions and reproducibility reports are welcome through [Issues](https://github.com/Sean-xzx/affective-sedimentation-llm-agent/issues) and pull requests. Include your OS, Python version, command and sanitized failure output. Never include API keys, private `.env` contents or personal logs. Preserve the scientific constants, core code and recorded data; proposed scientific changes belong in a clearly separate experiment, not a silent change to this release. No maintenance or hosted-service availability promise is made.
+Questions, permission requests and authorized reproducibility reports may be submitted through [Issues](https://github.com/Sean-xzx/Affective-Sedimentation-LLM-Agent-CSAI-2026/issues). Public availability does not authorize patches, functional changes, derivative projects or redistribution. Do not submit code changes without the rights holders' prior written permission. Include your OS, Python version, command and sanitized failure output when reporting an authorized run. Never include credentials or private logs. No maintenance or hosted-service availability promise is made.
 
 ## Known limitations and troubleshooting
 
@@ -141,7 +144,7 @@ Contributions and reproducibility reports are welcome through [Issues](https://g
 
 ## Use conditions, sources and citation
 
-Project code is available under the [MIT License](LICENSE). The author has authorized public distribution of the experiment ledger and authored paper/figures; these research resources retain their authors' rights and are not automatically relicensed as code. Consult [resource provenance](docs/RESOURCE_PROVENANCE.md) for scope and third-party conditions.
+**All rights reserved; no open-source license is offered for this revision.** Project-owned code, documentation, research materials, data, paper text and figures remain the property of their respective rights holders. Beyond public viewing, execution, reuse, modification, redistribution, derivative works and commercial use require prior written permission, except rights already granted or required by law or GitHub's terms. See [Rights and permissions](RIGHTS.md) for the prior MIT-version limitation, and [resource provenance](docs/RESOURCE_PROVENANCE.md) for independent third-party conditions.
 
 The engineered appraisal map attributes non-neutral OCC-to-PAD values to Gebhard and Kipp (2006), Table 2; methodological and related-work references are in [refs.bib](paper/refs.bib) and the [evidence table](paper/LITERATURE_EVIDENCE.md). The repository distributes no third-party paper PDFs or model weights. The bundled bibliography style declares public-domain status in its header.
 

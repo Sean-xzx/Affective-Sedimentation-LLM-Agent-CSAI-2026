@@ -2,5 +2,5 @@
 * -text
 README.md text eol=lf
 README.zh-CN.md text eol=lf
-LICENSE text eol=lf
+RIGHTS.md text eol=lf
 .github/** text eol=lf
