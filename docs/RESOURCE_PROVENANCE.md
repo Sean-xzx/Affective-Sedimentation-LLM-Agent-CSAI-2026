@@ -10,7 +10,7 @@ The publication separates original experimental artifacts from third-party softw
 | `reports/`, `data/derived/` | Local analysis of the recorded ledger | Research data/results retain author rights. |
 | `paper/main.tex`, `main.pdf`, `refs.bib`, figures | Author paper and locally supplied research artwork | Publication requires the author's rights confirmation; paper/figures retain author rights. No conference acceptance is asserted. |
 | `paper/ACM-Reference-Format-unsrt.bst` | Local unsorted variant of the ACM bibliography style | Header explicitly declares public-domain status and names its original authors; header retained. |
-| `Qwen/Qwen3-0.6B` tokenizer | Qwen Hugging Face repository, revision pinned in `resources.json` | Downloaded on demand; not redistributed in Git, no weights. Consult the upstream license and model card. |
+| `Qwen/Qwen3-0.6B` tokenizer | [Qwen repository](https://huggingface.co/Qwen/Qwen3-0.6B), revision pinned in `resources.json` | Upstream metadata declares Apache-2.0. Downloaded on demand; not redistributed in Git, no weights. Consult the upstream license and model card. |
 | Python dependencies | Packages listed in the publication lock | Installed from package registries; each retains its own license. |
 
 Non-neutral appraisal values are attributed to Gebhard and Kipp (2006), Table 2, as recorded in the original sources and [deviations](../reports/deviations.md). This is an engineered mapping and the probes are not validated human psychometric instruments. Bibliographic metadata and claim limitations are recorded in [the evidence table](../paper/LITERATURE_EVIDENCE.md); entries awaiting human review are not represented as verified.

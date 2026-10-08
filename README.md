@@ -28,7 +28,7 @@ Both recorded primary gate suites pass. None of the E axis-wise tests passes Hol
 - Python **3.11.9** is the locally verified version; Windows is verified locally. Linux is a CI target, with its actual status visible in GitHub Actions.
 - No GPU, database, model weights, API key or paid service is required for the demo and recorded-result analysis.
 - Internet is needed to clone, install dependencies and fetch four proxy-tokenizer files for the full test suite. After resource preparation, the suite runs offline.
-- Allow several hundred MB for the Python environment and about 15 MB for tokenizer resources. Local regression tests take roughly one minute; timing varies by machine.
+- Allow several hundred MB for the Python environment and about 15 MB for tokenizer resources. Local regression tests took about 1-3 minutes; timing varies by machine.
 - Paper compilation additionally requires a TeX distribution containing `acmart`, `pdflatex` and `bibtex`; it is separate from statistical reproduction.
 
 ## Quick start

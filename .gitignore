@@ -46,7 +46,10 @@ reports/**
 !reports/r7_gate.json
 !reports/main_results_table.tex
 !reports/plot_ready/
-!reports/plot_ready/**
+!reports/plot_ready/00_constants.json
+!reports/plot_ready/01_fig_E_units.csv
+!reports/plot_ready/02_fig_N_units.csv
+!reports/plot_ready/03_fig_N_heatmap_cells.csv
 
 # LaTeX build
 paper/**/*.aux

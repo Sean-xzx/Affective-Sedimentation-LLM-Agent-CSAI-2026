@@ -28,7 +28,7 @@
 - 本地验证版本为 Python **3.11.9**，操作系统为 Windows。Linux 是 CI 目标，实际检查状态以 GitHub Actions 为准。
 - 演示和已记录结果分析不需要 GPU、数据库、模型权重、API 密钥或付费服务。
 - 克隆、安装依赖以及为完整测试下载四个代理 tokenizer 文件需要联网。资源准备完成后，测试套件离线运行。
-- Python 环境需预留数百 MB，tokenizer 资源约 15 MB。本地回归测试约一分钟，耗时随机器变化。
+- Python 环境需预留数百 MB，tokenizer 资源约 15 MB。本地回归测试耗时约 1-3 分钟，耗时随机器变化。
 - 编译论文还需要包含 `acmart`、`pdflatex`、`bibtex` 的 TeX 环境；这是独立于统计复现的流程。
 
 ## 快速开始
